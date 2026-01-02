@@ -1,6 +1,5 @@
 from pathlib import Path
-from utils.good_short_crawler import GoodShortCrawler
-from utils.m3u8_downloader import batch_download
+from m3u8_downloader import batch_download
 
 """
 入口脚本：调用 GoodShortCrawler 抓取全集 m3u8。
