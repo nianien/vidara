@@ -174,7 +174,7 @@ Java.perform(() => {
 3. **编译成可直接加载的脚本：**
 
 ```bash
-npx frida-compile -S src/hook_chapter.js -o output/hook_chapter.js
+npx frida-compile -S src/hook_chapter.js -o ../hook/hook_chapter.js
 ```
 
 4. **Python 里加载编译后的脚本：**

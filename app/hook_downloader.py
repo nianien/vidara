@@ -53,7 +53,7 @@ def run_ffmpeg(
     return output_file
 
 
-def parse_url(obj: dict, msg_type: str | None = None) -> dict[str, str]:
+def parse_episode(obj: dict, msg_type: str | None = None) -> dict[str, str]:
     """
     解析请求响应，生成 chapter_name 与 m3u8 url 的映射
     根据不同的 msg_type 处理不同的 JSON 格式
@@ -155,7 +155,7 @@ def on_message(message, data):
         print("[!] json parse failed:", e)
         return
 
-    url_map = parse_url(obj, msg_type)
+    url_map = parse_episode(obj, msg_type)
     if not url_map:
         return
 
@@ -173,7 +173,7 @@ def main():
     session = device.attach(pid)
 
     # 2. 加载脚本 (强制指定 V8 运行时)
-    hook_script_path = Path(__file__).parent.parent / "frida-compile" / "output" / "hook_chapter.js"
+    hook_script_path = Path(__file__).parent.parent / "hook" / "hook_chapter.js"
     source = hook_script_path.read_text(encoding="utf-8")
     script = session.create_script(source, runtime="v8")
 
