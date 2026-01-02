@@ -3,35 +3,12 @@ import Java from "frida-java-bridge";
 Java.perform(function () {
     console.log("[*] Hook Body.apply + RealCall (REQUEST DEDUP)");
 
-    // =========================
-    // 1️⃣ Retrofit 参数层：改 latestChapterId = 0（保持你已验证版本）
-    // =========================
-    var BodyHandler = Java.use("retrofit2.ParameterHandler$Body");
-    var MapCls = Java.use("java.util.Map");
 
-    var origApply = BodyHandler.apply.overload(
-        "retrofit2.RequestBuilder",
-        "java.lang.Object"
-    );
+    var TARGETS = [
+        "/hwycclientreels/chapter/list",
+        "/hwycclientreels/chapter/load"
+    ];
 
-    origApply.implementation = function (rb, value) {
-        if (value && MapCls.class.isInstance(value)) {
-            var map = Java.cast(value, MapCls);
-            if (map.containsKey("latestChapterId")) {
-                var oldVal = map.get("latestChapterId");
-                if (oldVal !== null && ("" + oldVal) !== "0") {
-                    map.put("latestChapterId", Java.use("java.lang.Integer").valueOf(0));
-                    console.log("[PATCH] latestChapterId " + oldVal + " -> 0");
-                }
-            }
-        }
-        return origApply.call(this, rb, value);
-    };
-
-    // =========================
-    // 2️⃣ OkHttp 层：按 request.toString() 去重
-    // =========================
-    var TARGET = "/hwycclientreels/chapter/list";
     var RealCall = Java.use("okhttp3.internal.connection.RealCall");
     var getResp = RealCall.getResponseWithInterceptorChain$okhttp.overload();
 
@@ -42,8 +19,9 @@ Java.perform(function () {
         var req = this.request();
         var reqStr = req ? req.toString() : "";
 
-        // 非目标接口，直接放行
-        if (reqStr.indexOf(TARGET) === -1) {
+        if (!TARGETS.some(function (t) {
+            return reqStr.indexOf(t) !== -1;
+        })) {
             return getResp.call(this);
         }
 
@@ -54,19 +32,21 @@ Java.perform(function () {
         }
         seenReq[reqStr] = true;
 
-        // === 首次命中才打印 ===
-        console.log("\n[HIT REQUEST]");
-        console.log(reqStr);
-
         var resp = getResp.call(this);
 
         console.log("[HIT RESPONSE]");
         try {
             var body = resp.d();
             if (body) {
+                var mt = body.contentType();
+                var ct = mt ? mt.toString() : "";
+                if (ct.indexOf("application/json") === -1) return resp;
                 var text = body.string();
+                if (text.indexOf("m3u8") === -1) return resp;
+                console.log("\n[HIT REQUEST]");
+                console.log(reqStr);
+                console.log("[HIT RESPONSE]");
                 console.log("[BODY]\n" + text);
-
                 // 发送消息到 Python 端
                 send({
                     type: "goodshort",
@@ -76,7 +56,6 @@ Java.perform(function () {
         } catch (e) {
             console.log("[BODY ERROR] " + e);
         }
-
         return resp;
     };
 
