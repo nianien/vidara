@@ -2,1816 +2,1758 @@
   "data": {
     "list": [
       {
-        "id": 16038567,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993184,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "001",
-        "playTime": 146,
+        "playTime": 231,
         "price": 0,
         "prevChapterId": 0,
-        "nextChapterId": 16038568,
+        "nextChapterId": 13993185,
         "nextChapterName": "002",
         "status": 1,
         "index": 0,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/alexzwqv7n/720p/umzfhxpgz1_720p.m3u8?expiredTime=1768368582&tul=f3a38157eb07af518fc79490801e5c8cb047c362dc6131f5927be96eb3e142cf6f46db4a7aa03f2fd147627fcc0bb7c700a69d80f4229a46edf50c58ed50a603"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/sqgjk0t0ri/720p/go8eyqwprr_720p.m3u8?expiredTime=1768494210&tul=c4f86e9764b94378378cf8fa34bd31f01ba27740b80ad0c945e408e25e27eefcd88bffc5c86d871797457bd9e3fc6c204cc70f6fbb8ff87c2e5924e316159d0d"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-fHT3z8buuq.jpg?a=webp",
-        "playCount": 162378,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-Pxk4ArHdA8.jpg?a=webp",
+        "playCount": 68643,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/alexzwqv7n/720p/umzfhxpgz1_720p.m3u8?__token__=exp=1768368582~hmac=647a4b9a0f5ac36a6d3945b31e076fc5a83abf621035ef4956653e1039df3d47",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/sqgjk0t0ri/720p/go8eyqwprr_720p.m3u8?__token__=exp=1768494210~hmac=09a5674e658abd0a763b5c1a89d2e623f4903371b153e46aaa0969ac7eb612bd",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/alexzwqv7n/720p/umzfhxpgz1_720p.m3u8?expiredTime=1768368582&tul=f3a38157eb07af518fc79490801e5c8cb047c362dc6131f5927be96eb3e142cf6f46db4a7aa03f2fd147627fcc0bb7c700a69d80f4229a46edf50c58ed50a603"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/sqgjk0t0ri/720p/go8eyqwprr_720p.m3u8?expiredTime=1768494210&tul=c4f86e9764b94378378cf8fa34bd31f01ba27740b80ad0c945e408e25e27eefcd88bffc5c86d871797457bd9e3fc6c204cc70f6fbb8ff87c2e5924e316159d0d"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/alexzwqv7n/540p/umzfhxpgz1_540p.m3u8?__token__=exp=1768368582~hmac=d2765abe6e95e3e09c4792fe32496e8ff956429c6c0bcd077062e695efde3a47",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/sqgjk0t0ri/540p/go8eyqwprr_540p.m3u8?__token__=exp=1768494210~hmac=18ed598146a6809c23ab219dc2f56cbf4de9699ce0c68c8f0cfcee641c1deaf9",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/alexzwqv7n/540p/umzfhxpgz1_540p.m3u8?expiredTime=1768368582&tul=ddebe43b5a80c7740ace724f502ef6a545c437d0aa7c2f29c78b08a1d97ae990f0a5cce5b516c779b3c65f40873f6fded2deb5884d15a94615ed6e1664055908"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/sqgjk0t0ri/540p/go8eyqwprr_540p.m3u8?expiredTime=1768494210&tul=a21294f3f2af51ea369d17e49f00b64f4662bcea6c234a8d73d7551e9c4d52ba89f311ea1bccf633c944c27225339e7d4faea56619a7f8d87986e07f2a42c60d"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/alexzwqv7n/1080p/umzfhxpgz1_1080p.m3u8?__token__=exp=1768368582~hmac=5a2c5ddeebd6d6b4b486f82eb333bf54d5f8982616ffa2f61b3db574ad8b5737",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/sqgjk0t0ri/1080p/go8eyqwprr_1080p.m3u8?__token__=exp=1768494210~hmac=f065a679fb3e00aae77e70112a780cac92626b5181252e90bad53b2406a7ab86",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/alexzwqv7n/1080p/umzfhxpgz1_1080p.m3u8?expiredTime=1768368582&tul=26ac3890ec5d4f0e797e28e8fd75497a805ccc6dfe849b822ac91f2cb35ec2d2cf09d6797b432e91234f9c3733af261ca371015370790be23af2d42c00172802"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/sqgjk0t0ri/1080p/go8eyqwprr_1080p.m3u8?expiredTime=1768494210&tul=ef779888d2f370b35929905b913ac722ae40aec52eb543509020ddbbc7843a4f739784cf087e15729c73c6eed1ee78854d6a06689721f1abebad292d226ccc0b"
               }
             ]
           }
         ],
-        "playCountDisplay": "162.3K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/alexzwqv7n/720p/umzfhxpgz1_720p.m3u8?__token__=exp=1768368582~hmac=647a4b9a0f5ac36a6d3945b31e076fc5a83abf621035ef4956653e1039df3d47"
+        "playCountDisplay": "68.6K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/sqgjk0t0ri/720p/go8eyqwprr_720p.m3u8?__token__=exp=1768494210~hmac=09a5674e658abd0a763b5c1a89d2e623f4903371b153e46aaa0969ac7eb612bd"
       },
       {
-        "id": 16038568,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993185,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "002",
-        "playTime": 129,
+        "playTime": 219,
         "price": 0,
-        "prevChapterId": 16038567,
+        "prevChapterId": 13993184,
         "prevChapterName": "001",
-        "nextChapterId": 16038569,
+        "nextChapterId": 13993186,
         "nextChapterName": "003",
         "status": 1,
         "index": 1,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/gmg8xqnuok/720p/phhiajvtfh_720p.m3u8?expiredTime=1768368910&tul=61c78de3392e4d9c4278793bcaa56c38e34055cd9ab550c0e7525b573201482d533b1ff9387d32099af13cbbafb26f37ff6c2d02f55d41fa005ce8ac47857a05"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/djy7hdafnv/720p/e5wtnzxnv4_720p.m3u8?expiredTime=1768494210&tul=01c3f4a60f118e846276b1ddfda8ad54c6a26a4505513b1260c45e05b2c4228b2f9dc464d3a3863ee4b67ba1e57877edc2acf21d98ad4af2e869e6feed11a509"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-U1jVSBOGbT.jpg?a=webp",
-        "playCount": 115283,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-XhbCGugoq9.jpg?a=webp",
+        "playCount": 34904,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/gmg8xqnuok/720p/phhiajvtfh_720p.m3u8?__token__=exp=1768368910~hmac=8b0667241c5c3cfab3b20edd0c950b63c32b2b98e975c8ac5e73708ac809d85b",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/djy7hdafnv/720p/e5wtnzxnv4_720p.m3u8?__token__=exp=1768494210~hmac=d1834e678f444b77a2ee23404dba5dd8b1ea4068c0b86773eb842929632e3c9f",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/gmg8xqnuok/720p/phhiajvtfh_720p.m3u8?expiredTime=1768368910&tul=61c78de3392e4d9c4278793bcaa56c38e34055cd9ab550c0e7525b573201482d533b1ff9387d32099af13cbbafb26f37ff6c2d02f55d41fa005ce8ac47857a05"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/djy7hdafnv/720p/e5wtnzxnv4_720p.m3u8?expiredTime=1768494210&tul=01c3f4a60f118e846276b1ddfda8ad54c6a26a4505513b1260c45e05b2c4228b2f9dc464d3a3863ee4b67ba1e57877edc2acf21d98ad4af2e869e6feed11a509"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/gmg8xqnuok/540p/phhiajvtfh_540p.m3u8?__token__=exp=1768368910~hmac=dc5dfa769e9c7541952cf9e05ed110aa3c1cc4dda46659465349a6b752eaffbf",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/djy7hdafnv/540p/e5wtnzxnv4_540p.m3u8?__token__=exp=1768494210~hmac=bb603096b941ab97d8e0129e1ae074dcbd18af89b9c0de8fd81ec2598f2fe602",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/gmg8xqnuok/540p/phhiajvtfh_540p.m3u8?expiredTime=1768368910&tul=bc8fc284a9876f27080eb553f72975bd45e2e8cdfeaf61d3f78b6b5631c8470b9365b5934ae5c629563b7b19d0b6d91de3814cbc08e8315d2063048ead462d0b"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/djy7hdafnv/540p/e5wtnzxnv4_540p.m3u8?expiredTime=1768494210&tul=4f7dba61f3232cf426967e56d5412dccbdae376d658d6cfa17912e366329ef94f4d720171eb3a7c3f15339343ecc7e9c86587c237adda6efbf9d0503f94fea03"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/gmg8xqnuok/1080p/phhiajvtfh_1080p.m3u8?__token__=exp=1768368910~hmac=724d6444b6f7b1fa075452101b7d7e160866ba0a823a546b0c1e9328b6adb24f",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/djy7hdafnv/1080p/e5wtnzxnv4_1080p.m3u8?__token__=exp=1768494210~hmac=35d12841ad922427568f38d91eb3a31ada4382cd24bdff5eb6a9b127cab6ea48",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/gmg8xqnuok/1080p/phhiajvtfh_1080p.m3u8?expiredTime=1768368910&tul=9364cd877cf9c111f813540b70ab48c1c8f9181323facab345045b9635a403460e46ad7820dc8eb31e43046899a40c3fea37576904d35baf75bbe1fb7dfe1505"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/djy7hdafnv/1080p/e5wtnzxnv4_1080p.m3u8?expiredTime=1768494210&tul=277b21d9873a6ba53b123b5dcb43f40c9bed5868b2f8b83a8becad2a361935d17277843c37b60b913a61d14cd34d230c52e3643383f0b250b9c28d848a3e3209"
               }
             ]
           }
         ],
-        "playCountDisplay": "115.2K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/gmg8xqnuok/720p/phhiajvtfh_720p.m3u8?__token__=exp=1768368910~hmac=8b0667241c5c3cfab3b20edd0c950b63c32b2b98e975c8ac5e73708ac809d85b"
+        "playCountDisplay": "34.9K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/djy7hdafnv/720p/e5wtnzxnv4_720p.m3u8?__token__=exp=1768494210~hmac=d1834e678f444b77a2ee23404dba5dd8b1ea4068c0b86773eb842929632e3c9f"
       },
       {
-        "id": 16038569,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993186,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "003",
-        "playTime": 128,
+        "playTime": 205,
         "price": 0,
-        "prevChapterId": 16038568,
+        "prevChapterId": 13993185,
         "prevChapterName": "002",
-        "nextChapterId": 16038570,
+        "nextChapterId": 13993187,
         "nextChapterName": "004",
         "status": 1,
         "index": 2,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/l7lemcr4kv/720p/yfh2f8spq6_720p.m3u8?expiredTime=1768368910&tul=a586759f0102a2901e50bfd3364232c81722f8d313e90965579668bf2b189a7de017b8c38b71eca92087b53219c76a8b679e62f7ce0f453c5ac013ed1febd806"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/isrdrlcc5v/720p/gkxh3ckmkm_720p.m3u8?expiredTime=1768494210&tul=ded2843271a3d2061946f5297864b0201c3e6302e995e253b38f9f9893446102a318b0594ba0dc7e995783c498036b8d108a8a94e610c9d7887c99039ee4e308"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-grOZGZtLM5.jpg?a=webp",
-        "playCount": 109668,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-hlASqKCQs1.jpg?a=webp",
+        "playCount": 28387,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/l7lemcr4kv/720p/yfh2f8spq6_720p.m3u8?__token__=exp=1768368910~hmac=50babaacc5a3398b8ed7a05a83a743c88d015fa97db97e12731acb16f00b5340",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/isrdrlcc5v/720p/gkxh3ckmkm_720p.m3u8?__token__=exp=1768494210~hmac=1553db68f38da6d55aa01b006b95482c5f4ee7742c85f9378999ca7d76983975",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/l7lemcr4kv/720p/yfh2f8spq6_720p.m3u8?expiredTime=1768368910&tul=a586759f0102a2901e50bfd3364232c81722f8d313e90965579668bf2b189a7de017b8c38b71eca92087b53219c76a8b679e62f7ce0f453c5ac013ed1febd806"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/isrdrlcc5v/720p/gkxh3ckmkm_720p.m3u8?expiredTime=1768494210&tul=ded2843271a3d2061946f5297864b0201c3e6302e995e253b38f9f9893446102a318b0594ba0dc7e995783c498036b8d108a8a94e610c9d7887c99039ee4e308"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/l7lemcr4kv/540p/yfh2f8spq6_540p.m3u8?__token__=exp=1768368910~hmac=9361ae8f98917bc69c0546ec58f9201f607051d984460a602967f33a25782456",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/isrdrlcc5v/540p/gkxh3ckmkm_540p.m3u8?__token__=exp=1768494210~hmac=14b99d3563e09e1d499fefab9bdad7f80fbf6ce3cd4e916d5368425e132d8e34",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/l7lemcr4kv/540p/yfh2f8spq6_540p.m3u8?expiredTime=1768368910&tul=5c167d49289cffc6e47a4f87006e4b6900ce066336ce870b99427e3aca2b7043da397e5362464823cf0749bbb18868d1a6c47b4b12c06e2a6a17954d5830030c"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/isrdrlcc5v/540p/gkxh3ckmkm_540p.m3u8?expiredTime=1768494210&tul=a0997701e9629712d50b902180af5a9ea64cbf38430adcbd901950395a9e71229795be36d7e82b87bc207890b9dc3715a6e2514241d3a287ce77ed0739ea900b"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/l7lemcr4kv/1080p/yfh2f8spq6_1080p.m3u8?__token__=exp=1768368910~hmac=f55e2111dfd9b76a1b868db76f7a3eb6b07876d87d1481b327c6b30b885f715a",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/isrdrlcc5v/1080p/gkxh3ckmkm_1080p.m3u8?__token__=exp=1768494210~hmac=6f9cac08cf06230399177c7e5ed05ee418d8c6fce8e97d3ce23a74ec7195e680",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/l7lemcr4kv/1080p/yfh2f8spq6_1080p.m3u8?expiredTime=1768368910&tul=1692afa34995b6b3f729498c8352ecf5a1648ebf291445174b21a8b0c2880bb7d290b09f225326aac32288918f945695fbbcdc57add4017514e532fca850410d"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/isrdrlcc5v/1080p/gkxh3ckmkm_1080p.m3u8?expiredTime=1768494210&tul=d3d3adaa7b50dda3aed51362a52aec67d2291023cbab910aca49dfb8cc834395aeed21d9339c3b87a2c8b566ef530c2954aef5a78ae6bd2b5c79cad701cb4104"
               }
             ]
           }
         ],
-        "playCountDisplay": "109.6K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/l7lemcr4kv/720p/yfh2f8spq6_720p.m3u8?__token__=exp=1768368910~hmac=50babaacc5a3398b8ed7a05a83a743c88d015fa97db97e12731acb16f00b5340"
+        "playCountDisplay": "28.3K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/isrdrlcc5v/720p/gkxh3ckmkm_720p.m3u8?__token__=exp=1768494210~hmac=1553db68f38da6d55aa01b006b95482c5f4ee7742c85f9378999ca7d76983975"
       },
       {
-        "id": 16038570,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993187,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "004",
-        "playTime": 141,
+        "playTime": 169,
         "price": 0,
-        "prevChapterId": 16038569,
+        "prevChapterId": 13993186,
         "prevChapterName": "003",
-        "nextChapterId": 16038571,
+        "nextChapterId": 13993188,
         "nextChapterName": "005",
         "status": 1,
         "index": 3,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/nkhvjxhvlf/720p/hjdbtwc9db_720p.m3u8?expiredTime=1768369071&tul=ab4cce75af21559f76ba12f130a7abde5740561175f4d3783167d96c5c59877d9a37e2fe99ac7e80542adfbe8f4c61f95f1809521b46f5f8e689f1cc3f3e2a0b"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/auyobh1reb/720p/txd0fx2o9y_720p.m3u8?expiredTime=1768494210&tul=39d7d5c676441ab81855725992660da180aaa3e5ab6028273b973cdb2c6f09ea8f5574e3460313356207d904716297de574be1b67c7c4b48b8580222e650fe0a"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-n7fPjSb0AW.jpg?a=webp",
-        "playCount": 107495,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-yPpd5MNbYR.jpg?a=webp",
+        "playCount": 26095,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/nkhvjxhvlf/720p/hjdbtwc9db_720p.m3u8?__token__=exp=1768369071~hmac=fa66986e7b9e9e1e9103064d6a7c3709b2834b41c5c0294133ba3e01eb7223a2",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/auyobh1reb/720p/txd0fx2o9y_720p.m3u8?__token__=exp=1768494210~hmac=1d8084edfe97bf938ffcab34eced33b7b2d5e89e9a7396701af280fc902cb7ad",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/nkhvjxhvlf/720p/hjdbtwc9db_720p.m3u8?expiredTime=1768369071&tul=ab4cce75af21559f76ba12f130a7abde5740561175f4d3783167d96c5c59877d9a37e2fe99ac7e80542adfbe8f4c61f95f1809521b46f5f8e689f1cc3f3e2a0b"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/auyobh1reb/720p/txd0fx2o9y_720p.m3u8?expiredTime=1768494210&tul=39d7d5c676441ab81855725992660da180aaa3e5ab6028273b973cdb2c6f09ea8f5574e3460313356207d904716297de574be1b67c7c4b48b8580222e650fe0a"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/nkhvjxhvlf/540p/hjdbtwc9db_540p.m3u8?__token__=exp=1768369071~hmac=b93c1477684ba11793f3139553401414641616a47c66fd4375cf5e6425805b08",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/auyobh1reb/540p/txd0fx2o9y_540p.m3u8?__token__=exp=1768494210~hmac=61b6e2d95857198963cccab71f085287c4f425df8352fc2990aa75c58894e943",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/nkhvjxhvlf/540p/hjdbtwc9db_540p.m3u8?expiredTime=1768369071&tul=183a4376d0e5c7f0d0dcd012d0a646c841e278f7f55c1fed13741dc17e4631a2598cbc32d0f7acf576a5f05b569ad3713569f0d1db1267be99d4ccfd7f048c04"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/auyobh1reb/540p/txd0fx2o9y_540p.m3u8?expiredTime=1768494210&tul=72d9c02599c743d5074fd17ec34ae374440f819fe007bc76d1828664af1af354f537188772c808f3872617eb33a70790c2c04ed6b2fd634691fa562487f6f807"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/nkhvjxhvlf/1080p/hjdbtwc9db_1080p.m3u8?__token__=exp=1768369071~hmac=808e18817702bf529f9ee159b70e8c01458fec99ba02d86b7205519611fbb027",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/auyobh1reb/1080p/txd0fx2o9y_1080p.m3u8?__token__=exp=1768494210~hmac=614b9175b5b95a5677b697cc6916bfdc600a504164cfa11c10576aab6e6f7b4c",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/nkhvjxhvlf/1080p/hjdbtwc9db_1080p.m3u8?expiredTime=1768369071&tul=2c1c3c58b85294af8cd61730216985b6174f1901fcb9f36cf2b1a7addd6d9e118207e0e4777eca5274a06ac39832b21754f7a5c92f53c878965051f54271100a"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/auyobh1reb/1080p/txd0fx2o9y_1080p.m3u8?expiredTime=1768494210&tul=9c09bba7824bb9a247a24820b2fdb9c19ee6c8ead8e732c068c331014425132af692e3b2475fc41d3dbc1c423b1b01ba8f7020343faa0d935dd43f5f1ba53b00"
               }
             ]
           }
         ],
-        "playCountDisplay": "107.4K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/nkhvjxhvlf/720p/hjdbtwc9db_720p.m3u8?__token__=exp=1768369071~hmac=fa66986e7b9e9e1e9103064d6a7c3709b2834b41c5c0294133ba3e01eb7223a2"
+        "playCountDisplay": "26.0K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/auyobh1reb/720p/txd0fx2o9y_720p.m3u8?__token__=exp=1768494210~hmac=1d8084edfe97bf938ffcab34eced33b7b2d5e89e9a7396701af280fc902cb7ad"
       },
       {
-        "id": 16038571,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993188,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "005",
-        "playTime": 141,
+        "playTime": 85,
         "price": 0,
-        "prevChapterId": 16038570,
+        "prevChapterId": 13993187,
         "prevChapterName": "004",
-        "nextChapterId": 16038572,
+        "nextChapterId": 13993189,
         "nextChapterName": "006",
         "status": 1,
         "index": 4,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/e2urccl8mo/720p/p4qnanwpf4_720p.m3u8?expiredTime=1768369071&tul=4c78c587317a4e103c245ad6af9456fbdf71993751f47ac900b5aa5fb2e25719e06d0ae4fe7a28734271899ff45c45c98a37f5effa049ba3961307267b1c9505"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/se0q4wehl9/720p/q3w15tnqf2_720p.m3u8?expiredTime=1768494210&tul=f2f99bc130bc9c9daf87e2a42968ce8cffb87123eb9d8b9948e32ac7f05ae5e704ab080e8f7bf83a5d4c57bba3b8bf35a3b584c01fe1a85e87042f440c021002"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-eqjIBu01pO.jpg?a=webp",
-        "playCount": 104442,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-qMYSUnPcUd.jpg?a=webp",
+        "playCount": 24836,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/e2urccl8mo/720p/p4qnanwpf4_720p.m3u8?__token__=exp=1768369071~hmac=2823bbebc6ec978506fab428c2fe49ac3e759270446740bfa292d3a67baa02de",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/se0q4wehl9/720p/q3w15tnqf2_720p.m3u8?__token__=exp=1768494210~hmac=f8c25f0fe34e75191756d571cb9cc7db2e151671508de64ea394cc670f03133d",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/e2urccl8mo/720p/p4qnanwpf4_720p.m3u8?expiredTime=1768369071&tul=4c78c587317a4e103c245ad6af9456fbdf71993751f47ac900b5aa5fb2e25719e06d0ae4fe7a28734271899ff45c45c98a37f5effa049ba3961307267b1c9505"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/se0q4wehl9/720p/q3w15tnqf2_720p.m3u8?expiredTime=1768494210&tul=f2f99bc130bc9c9daf87e2a42968ce8cffb87123eb9d8b9948e32ac7f05ae5e704ab080e8f7bf83a5d4c57bba3b8bf35a3b584c01fe1a85e87042f440c021002"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/e2urccl8mo/540p/p4qnanwpf4_540p.m3u8?__token__=exp=1768369071~hmac=d9a8dc7270d810b53e788b390214a1d4a9c0742d168798129374ddbc45b4cb95",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/se0q4wehl9/540p/q3w15tnqf2_540p.m3u8?__token__=exp=1768494210~hmac=13254fbf879f78ddd4d428ac4d1fcc50512ad8355a71933c1e556a0276f6bccf",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/e2urccl8mo/540p/p4qnanwpf4_540p.m3u8?expiredTime=1768369071&tul=d8c242ebbad976b3a42fd557a8d87abc55ae55de75e2d10fe485e081a1a148651e408197b7bad086099e01a9ff7629e561de59d47affa3a0178c8a83bbd19507"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/se0q4wehl9/540p/q3w15tnqf2_540p.m3u8?expiredTime=1768494210&tul=8c3ac8693f1cae833d4bb4aec63a7e5d6a1be979d3cdaf38d377f19a14703d3d0cd647839816b6f881cdd70f1b0de261f846e46014c0c96103e14bbcb2747f0e"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/e2urccl8mo/1080p/p4qnanwpf4_1080p.m3u8?__token__=exp=1768369071~hmac=82d0c85e4cd33733589634eee0a040ea0b406c6402476e299b03a1a276a3930e",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/se0q4wehl9/1080p/q3w15tnqf2_1080p.m3u8?__token__=exp=1768494210~hmac=e37e2ef1028c4fd15f13f94f03b0486215045ba3186faa0beb6eefd8970b1513",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/e2urccl8mo/1080p/p4qnanwpf4_1080p.m3u8?expiredTime=1768369071&tul=4cb2e425d5bdd9192aef8f800d45829feeecf45cd7f8fd455ff5d3b7935d1278e1f2a0d084a2e609ec51eda5a57d358da66227a1ffc99f17d58454a79c148e0b"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/se0q4wehl9/1080p/q3w15tnqf2_1080p.m3u8?expiredTime=1768494210&tul=2cb193431d338b80aae7def4d668f805faed85446e7122b1c85b722681fcc5fc09d9047bfa89cddf1e5aedab7cca893db3d336542b2f2b95ff95f2b1aa1cf105"
               }
             ]
           }
         ],
-        "playCountDisplay": "104.4K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/e2urccl8mo/720p/p4qnanwpf4_720p.m3u8?__token__=exp=1768369071~hmac=2823bbebc6ec978506fab428c2fe49ac3e759270446740bfa292d3a67baa02de"
+        "playCountDisplay": "24.8K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/se0q4wehl9/720p/q3w15tnqf2_720p.m3u8?__token__=exp=1768494210~hmac=f8c25f0fe34e75191756d571cb9cc7db2e151671508de64ea394cc670f03133d"
       },
       {
-        "id": 16038572,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993189,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "006",
-        "playTime": 92,
+        "playTime": 76,
         "price": 0,
-        "prevChapterId": 16038571,
+        "prevChapterId": 13993188,
         "prevChapterName": "005",
-        "nextChapterId": 16038573,
+        "nextChapterId": 13993190,
         "nextChapterName": "007",
         "status": 1,
         "index": 5,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/n6lxeicscj/720p/1a4mvxv6fh_720p.m3u8?expiredTime=1768369071&tul=abd16255f6dd5d9f31ebef2aecb4c9cb1d0e17451798e02cd27f7a056916991624dbfee5094adfe66deac770fbb28cc44316e80b2a3c03a1e4b341288553240f"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/qsdmcem4eh/720p/gf6oymkpxs_720p.m3u8?expiredTime=1768494210&tul=1aa1d2b8e77f1584ae92ee7d270c4656e0fd73f17dc82e04323c747b18e79845f0ca87052782101977bb027b20495c1cf152fde742cc21055931d1e69a818707"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-f0vtBRF5mw.jpg?a=webp",
-        "playCount": 104381,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-kHDdl8AZxy.jpg?a=webp",
+        "playCount": 24989,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/n6lxeicscj/720p/1a4mvxv6fh_720p.m3u8?__token__=exp=1768369071~hmac=b35d05e241d259e99efadf514b4a9ef080843965a8c6ed6af66d3427b976716d",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/qsdmcem4eh/720p/gf6oymkpxs_720p.m3u8?__token__=exp=1768494210~hmac=f727e7552420e536b26b0a4f81611d2f2c285b27bbe6ca91725b29ec7864f249",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/n6lxeicscj/720p/1a4mvxv6fh_720p.m3u8?expiredTime=1768369071&tul=abd16255f6dd5d9f31ebef2aecb4c9cb1d0e17451798e02cd27f7a056916991624dbfee5094adfe66deac770fbb28cc44316e80b2a3c03a1e4b341288553240f"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/qsdmcem4eh/720p/gf6oymkpxs_720p.m3u8?expiredTime=1768494210&tul=1aa1d2b8e77f1584ae92ee7d270c4656e0fd73f17dc82e04323c747b18e79845f0ca87052782101977bb027b20495c1cf152fde742cc21055931d1e69a818707"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/n6lxeicscj/540p/1a4mvxv6fh_540p.m3u8?__token__=exp=1768369071~hmac=df8f63e6344550e6dd3053cfff71cbfc38744337fe6fe918e293224717f2fd7e",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/qsdmcem4eh/540p/gf6oymkpxs_540p.m3u8?__token__=exp=1768494210~hmac=d39a756b29ebc3ac21c6ea2130f075877612c1e0815105ef4c00365e9e5c304b",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/n6lxeicscj/540p/1a4mvxv6fh_540p.m3u8?expiredTime=1768369071&tul=29d340649ec0e463730854e038d65fa5025ef6a58740890be26a68b7e3373b5b6d3b24acb51906706200ef5970d3a2d4e27cfe2c3fab194d306aa58ba4e6f80b"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/qsdmcem4eh/540p/gf6oymkpxs_540p.m3u8?expiredTime=1768494210&tul=47239930776924c5ae67afc31c9ea6cde7f15a8aac87f743fedfe67a7827079c0512499061b9e482043db15d8b343cdd696b85d11fb6a5ae95ea126d7f6d7209"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/n6lxeicscj/1080p/1a4mvxv6fh_1080p.m3u8?__token__=exp=1768369071~hmac=cece943137716ab756786d0cdc07e008bebb9cbd450ff869bebf86fba8734674",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/qsdmcem4eh/1080p/gf6oymkpxs_1080p.m3u8?__token__=exp=1768494210~hmac=16d78a61820815dfc20bbe09c382e8f76b3d08ac6d3620ffd468070c6ac33d84",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/n6lxeicscj/1080p/1a4mvxv6fh_1080p.m3u8?expiredTime=1768369071&tul=44708174eac4417c248a3644c2e819404b5fd8fdebca4587fb791d7213faa2a22739d725e85dcd4eaa5986f869995ad231a839eb20a5f3c543fd957e7ff0e50d"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/qsdmcem4eh/1080p/gf6oymkpxs_1080p.m3u8?expiredTime=1768494210&tul=c20e526fad30f1f0aac98e5fef662b258ac7ecf100f08b9d6f6165d32ff1fce509a5357da880bcdb3fcf226c46857d519ff59f64613f8b6d3f5d351fa074bd00"
               }
             ]
           }
         ],
-        "playCountDisplay": "104.3K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/n6lxeicscj/720p/1a4mvxv6fh_720p.m3u8?__token__=exp=1768369071~hmac=b35d05e241d259e99efadf514b4a9ef080843965a8c6ed6af66d3427b976716d"
+        "playCountDisplay": "24.9K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/qsdmcem4eh/720p/gf6oymkpxs_720p.m3u8?__token__=exp=1768494210~hmac=f727e7552420e536b26b0a4f81611d2f2c285b27bbe6ca91725b29ec7864f249"
       },
       {
-        "id": 16038573,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993190,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "007",
-        "playTime": 118,
+        "playTime": 174,
         "price": 0,
-        "prevChapterId": 16038572,
+        "prevChapterId": 13993189,
         "prevChapterName": "006",
-        "nextChapterId": 16038574,
+        "nextChapterId": 13993191,
         "nextChapterName": "008",
         "status": 1,
         "index": 6,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/tnfx6eyn6c/720p/rw1z18sv8o_720p.m3u8?expiredTime=1768369071&tul=80c1f686ebb83ebf790833f0ba8e6146a2543b160fd8a6ab044cad85da594f34f828ac9977eff0c38666039874bf71760d670d27a507e76fc880541a95888e0b"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/cy95tvn9ui/720p/udow0nhzae_720p.m3u8?expiredTime=1768494210&tul=8dafa733a9f1cc9343c787e720743cdd3612cc587144ab748d21b30389d27ba7cbd3e20925d937b83d93e8b2259c869059fe711387da9694804d15434cf7450d"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-QbJMFpR9YP.jpg?a=webp",
-        "playCount": 103705,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-VIg3rXhnxw.jpg?a=webp",
+        "playCount": 24870,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/tnfx6eyn6c/720p/rw1z18sv8o_720p.m3u8?__token__=exp=1768369071~hmac=f8f362f12a2528ef83eb23a002758cc1276c0869b9fc45d6bccef6c871f5d61d",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/cy95tvn9ui/720p/udow0nhzae_720p.m3u8?__token__=exp=1768494210~hmac=bbe96f3faf7c4034c60f56552de059d0f73da7570dc1cd62dfe2af4ec2535a03",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/tnfx6eyn6c/720p/rw1z18sv8o_720p.m3u8?expiredTime=1768369071&tul=80c1f686ebb83ebf790833f0ba8e6146a2543b160fd8a6ab044cad85da594f34f828ac9977eff0c38666039874bf71760d670d27a507e76fc880541a95888e0b"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/cy95tvn9ui/720p/udow0nhzae_720p.m3u8?expiredTime=1768494210&tul=8dafa733a9f1cc9343c787e720743cdd3612cc587144ab748d21b30389d27ba7cbd3e20925d937b83d93e8b2259c869059fe711387da9694804d15434cf7450d"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/tnfx6eyn6c/540p/rw1z18sv8o_540p.m3u8?__token__=exp=1768369071~hmac=e0d672041b21e8348cb11889402c2f86ec51f5e3ebc7c45dcf8500ecd8755215",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/cy95tvn9ui/540p/udow0nhzae_540p.m3u8?__token__=exp=1768494210~hmac=af5a00f09ee77e86a40f169902dd3f28f78d39f4a51eca732ad70c8dd7922841",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/tnfx6eyn6c/540p/rw1z18sv8o_540p.m3u8?expiredTime=1768369071&tul=8a20329294f3b7111eec34d19abb0468b9011837771cf1e9bfee9979b1de14cea8f3a82444a435d902677c4ee67abb2f771bd2854ee59ff616c566c3b153ab04"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/cy95tvn9ui/540p/udow0nhzae_540p.m3u8?expiredTime=1768494210&tul=47b00ef03fd37dba5c8a6ca8eca11bbcb3d71add070beff2b4ba9e9235ec113b6803f64d029a811ff217d2198a02527d9a7d4e489fdb831a8991245d1ad86f0a"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/tnfx6eyn6c/1080p/rw1z18sv8o_1080p.m3u8?__token__=exp=1768369071~hmac=a7be97a42947becaacc734ca5243a0eb120cf9f83d2ebccfa2810da082b53780",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/cy95tvn9ui/1080p/udow0nhzae_1080p.m3u8?__token__=exp=1768494210~hmac=935f2c37b0fbe89dd9cd39c612d8ff27e494771bd4af638a423335ad01e62c1a",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/tnfx6eyn6c/1080p/rw1z18sv8o_1080p.m3u8?expiredTime=1768369071&tul=7bf6aea59f5c9c0356739556871880283387f9c3bbff0e29a456da06f271454801983552d888b9440d8346e09228b429bb6d5b5d8274cb395a9e73f0159c3c02"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/cy95tvn9ui/1080p/udow0nhzae_1080p.m3u8?expiredTime=1768494210&tul=1b9750b23f6a14ec4d395cfd6d90e209d7a799c3975b041e9f613ed56d4f55a25bb338311f24082baba0a1f62b414b6a7136b6dc9b2d2b5845670fc254416302"
               }
             ]
           }
         ],
-        "playCountDisplay": "103.7K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/tnfx6eyn6c/720p/rw1z18sv8o_720p.m3u8?__token__=exp=1768369071~hmac=f8f362f12a2528ef83eb23a002758cc1276c0869b9fc45d6bccef6c871f5d61d"
+        "playCountDisplay": "24.8K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/cy95tvn9ui/720p/udow0nhzae_720p.m3u8?__token__=exp=1768494210~hmac=bbe96f3faf7c4034c60f56552de059d0f73da7570dc1cd62dfe2af4ec2535a03"
       },
       {
-        "id": 16038574,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993191,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "008",
-        "playTime": 152,
+        "playTime": 148,
         "price": 0,
-        "prevChapterId": 16038573,
+        "prevChapterId": 13993190,
         "prevChapterName": "007",
-        "nextChapterId": 16038575,
+        "nextChapterId": 13993192,
         "nextChapterName": "009",
         "status": 1,
         "index": 7,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/ggjacrhimi/720p/exioqlzyuv_720p.m3u8?expiredTime=1768369071&tul=478bb5d421469113b3212b9df390ee43e4ec39b7a7d690d39339299c5aae52fcc757fe89e81e48b6c4d033ce7d0c3bf8b4424923772cf650f58496fd56718506"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/sfmuwwvw6v/720p/zpxi1rlpo1_720p.m3u8?expiredTime=1768494210&tul=bcbad75e0e9c73c795adff290af7b67addf0305d8acb40bc7f592eebeaf4821454a156d41b91bbc363b9ecc0cdae689ad71cb01fa47c43ce7eb06dde2d1e2102"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-aWVy8uNSXl.jpg?a=webp",
-        "playCount": 104371,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-OV8mQ0t5Bq.jpg?a=webp",
+        "playCount": 23771,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/ggjacrhimi/720p/exioqlzyuv_720p.m3u8?__token__=exp=1768369071~hmac=000fc736a47445d2ca2086b4297f3d95bea27e9d893b599b75dbe8e02534f9f3",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/sfmuwwvw6v/720p/zpxi1rlpo1_720p.m3u8?__token__=exp=1768494210~hmac=4c24986bcecd586bd167beb3561cbf4a21935d93bbc647858b349af534d1a535",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/ggjacrhimi/720p/exioqlzyuv_720p.m3u8?expiredTime=1768369071&tul=478bb5d421469113b3212b9df390ee43e4ec39b7a7d690d39339299c5aae52fcc757fe89e81e48b6c4d033ce7d0c3bf8b4424923772cf650f58496fd56718506"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/sfmuwwvw6v/720p/zpxi1rlpo1_720p.m3u8?expiredTime=1768494210&tul=bcbad75e0e9c73c795adff290af7b67addf0305d8acb40bc7f592eebeaf4821454a156d41b91bbc363b9ecc0cdae689ad71cb01fa47c43ce7eb06dde2d1e2102"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/ggjacrhimi/540p/exioqlzyuv_540p.m3u8?__token__=exp=1768369071~hmac=6b4237f9a08e8f0214af3ffeaa735be597598e888c8a13d11ad9ebaa3db45137",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/sfmuwwvw6v/540p/zpxi1rlpo1_540p.m3u8?__token__=exp=1768494210~hmac=3c23ad920e2615d365e5b992daad80b7d2d75a4b9ca84306ba3cf6cd5c80b518",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/ggjacrhimi/540p/exioqlzyuv_540p.m3u8?expiredTime=1768369071&tul=7ee8f2b0d157a3b1d135ad74aef9bc25e45e158b7b7ce7ef9cc714d0cd7cd63354cf1fd0208f75ad322b4ff5b11b2b2cf25979413a288ddc43f14c5455188803"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/sfmuwwvw6v/540p/zpxi1rlpo1_540p.m3u8?expiredTime=1768494210&tul=ba2b3a874c84b61a7ffd06eb4598cf4d213ccf670ef99c0b48134e3b2d5d873661962fd66db1bc07a107ce91b40c8ad63d5d159fe5a48f044c686df67463a601"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/ggjacrhimi/1080p/exioqlzyuv_1080p.m3u8?__token__=exp=1768369071~hmac=d4b558333cd2e34409200460868900d0bfd2c1bec27d75857eff6ede5754c820",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/sfmuwwvw6v/1080p/zpxi1rlpo1_1080p.m3u8?__token__=exp=1768494210~hmac=32e575ca804b8b8250a5696ec13974fc3932e4038561a406cfd77bddbc2f1814",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/ggjacrhimi/1080p/exioqlzyuv_1080p.m3u8?expiredTime=1768369071&tul=c021ac613b2269873c7cbbe05a7b6fa7b2bd7969049962e34ea02b5bfa62cbc2f2b7513b1f6eda05c7685357ced61c759a216b3ae07c6df6233c7b6de41eeb09"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/sfmuwwvw6v/1080p/zpxi1rlpo1_1080p.m3u8?expiredTime=1768494210&tul=01b03d0d4d0502d5e71bb8ecd81b95c9828ccc0c511f3df774bff28199605d8aebffa7eba22e0ec14320a66302eaf04af148a07047c9389d115f667d83baf70b"
               }
             ]
           }
         ],
-        "playCountDisplay": "104.3K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/ggjacrhimi/720p/exioqlzyuv_720p.m3u8?__token__=exp=1768369071~hmac=000fc736a47445d2ca2086b4297f3d95bea27e9d893b599b75dbe8e02534f9f3"
+        "playCountDisplay": "23.7K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/sfmuwwvw6v/720p/zpxi1rlpo1_720p.m3u8?__token__=exp=1768494210~hmac=4c24986bcecd586bd167beb3561cbf4a21935d93bbc647858b349af534d1a535"
       },
       {
-        "id": 16038575,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993192,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "009",
-        "playTime": 163,
+        "playTime": 160,
         "price": 0,
-        "prevChapterId": 16038574,
+        "prevChapterId": 13993191,
         "prevChapterName": "008",
-        "nextChapterId": 16038576,
+        "nextChapterId": 13993193,
         "nextChapterName": "010",
         "status": 1,
         "index": 8,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/a4iwjmcegx/720p/yqzi6bbatr_720p.m3u8?expiredTime=1768369071&tul=e13ba9f09d5fa3d5653dece3883f1d912df2984219fbf08a26a9070bba0a1dad5e822d5f6725fa63a362a5098fa3ce375e4f418ad68f7fd0cb490b7040e24b01"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/yp37wwypdi/720p/dktqwrla6f_720p.m3u8?expiredTime=1768494210&tul=c71d4068e6ef950de494f63a2eb7b57a7ab0a3c20c8fd5d851c21f5529a597c0359e10d5f4c04387533e44ccab09eb53276f796d28777243d224ec2a8914c60d"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-seS2SyEv8X.jpg?a=webp",
-        "playCount": 103552,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-P7ZW53VK1O.jpg?a=webp",
+        "playCount": 23363,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/a4iwjmcegx/720p/yqzi6bbatr_720p.m3u8?__token__=exp=1768369071~hmac=18a2d9370f03b8a2271b8d25ae826ca7735200afcb86818dec04b296e322f770",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/yp37wwypdi/720p/dktqwrla6f_720p.m3u8?__token__=exp=1768494210~hmac=317c7afc7798fb04b0d2c2a14ab657090272145280fd5b5970dc8ea0f777ffec",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/a4iwjmcegx/720p/yqzi6bbatr_720p.m3u8?expiredTime=1768369071&tul=e13ba9f09d5fa3d5653dece3883f1d912df2984219fbf08a26a9070bba0a1dad5e822d5f6725fa63a362a5098fa3ce375e4f418ad68f7fd0cb490b7040e24b01"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/yp37wwypdi/720p/dktqwrla6f_720p.m3u8?expiredTime=1768494210&tul=c71d4068e6ef950de494f63a2eb7b57a7ab0a3c20c8fd5d851c21f5529a597c0359e10d5f4c04387533e44ccab09eb53276f796d28777243d224ec2a8914c60d"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/a4iwjmcegx/540p/yqzi6bbatr_540p.m3u8?__token__=exp=1768369071~hmac=c6f8f4fa51a80377409b44f06554abc5f786584d1f4920f79b1b432e78c6a9e1",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/yp37wwypdi/540p/dktqwrla6f_540p.m3u8?__token__=exp=1768494210~hmac=2a0e2e82c853822a476a2a8919808c8d090ba05700ffaa059fb83058eda11314",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/a4iwjmcegx/540p/yqzi6bbatr_540p.m3u8?expiredTime=1768369071&tul=0e9057c8a5c14350ed66c06b69ad332bc0261522c2e35f75e4b0f43b0a38a533f9e10dd440f2a4c42ecca1c0aba1805df8d356095b2dde5d0c89b945bc84b305"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/yp37wwypdi/540p/dktqwrla6f_540p.m3u8?expiredTime=1768494210&tul=900da36ef67a2c744e4e5ec1b6eece544d2eca38f3b3c75c2293248065c178c8eddfe0174517ecd6223350cd4b133ce9507f30f168234b26c445c5433b349b05"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/a4iwjmcegx/1080p/yqzi6bbatr_1080p.m3u8?__token__=exp=1768369071~hmac=7434de2fbab3347cb8dc87e9b2c176f89ba05b59da1921c96198a98fb05f3eb0",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/yp37wwypdi/1080p/dktqwrla6f_1080p.m3u8?__token__=exp=1768494210~hmac=025b8e984ada89514ffcfbb52352b4524716bfcf7570653430c0b794faa37afa",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/a4iwjmcegx/1080p/yqzi6bbatr_1080p.m3u8?expiredTime=1768369071&tul=db14957e7d6799ab5d17f9c385a6a00439c9b353c7c92dde193e432e18e7866e12d2ed937c2d78df5ebdd40c02ba6c5945d9394e6164da9f1b12b0a944b41d04"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/yp37wwypdi/1080p/dktqwrla6f_1080p.m3u8?expiredTime=1768494210&tul=9bc4bd08fb7db78559fec564613f3a5e917413eef4067de04beb4fe745846a3c9375e7a08b24a140485f56acb4ee4c6cb1bb94fe1fc0850a38cb73e731028004"
               }
             ]
           }
         ],
-        "playCountDisplay": "103.5K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/a4iwjmcegx/720p/yqzi6bbatr_720p.m3u8?__token__=exp=1768369071~hmac=18a2d9370f03b8a2271b8d25ae826ca7735200afcb86818dec04b296e322f770"
+        "playCountDisplay": "23.3K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/yp37wwypdi/720p/dktqwrla6f_720p.m3u8?__token__=exp=1768494210~hmac=317c7afc7798fb04b0d2c2a14ab657090272145280fd5b5970dc8ea0f777ffec"
       },
       {
-        "id": 16038576,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993193,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "010",
-        "playTime": 167,
+        "playTime": 219,
         "price": 0,
-        "prevChapterId": 16038575,
+        "prevChapterId": 13993192,
         "prevChapterName": "009",
-        "nextChapterId": 16038577,
+        "nextChapterId": 13993194,
         "nextChapterName": "011",
         "status": 1,
         "index": 9,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/hppvl3gzjl/720p/s7lc9uqhzw_720p.m3u8?expiredTime=1768368910&tul=bd00d4e41e1d2f33981770179b17f01e523945042e25288fd20ebb08932128672db3477658150948860ee577aeec5d123c713f15d097206aa7c56e8f7d721c0d"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/eezgpyhjvn/720p/vpz4h1rjie_720p.m3u8?expiredTime=1768494210&tul=b8a1d7fb5c0f5fd06f0c154496eb6be782699f329eb869a63277cce3f82a60595b3544f240266d074b0645d74dfe93df01cfe976737daabbd4a0c0d2d3c6360a"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-hYf25XMNi2.jpg?a=webp",
-        "playCount": 102980,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-K41ICzqSw5.jpg?a=webp",
+        "playCount": 24092,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/hppvl3gzjl/720p/s7lc9uqhzw_720p.m3u8?__token__=exp=1768368910~hmac=c652c97b44a2965da6a0a89105f2c2109027699a6ed33d638389af8a16090fc1",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/eezgpyhjvn/720p/vpz4h1rjie_720p.m3u8?__token__=exp=1768494210~hmac=6023db53249a0c34328c993a6080d35e94dfee80f5b2814c1b3a5999df51663c",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/hppvl3gzjl/720p/s7lc9uqhzw_720p.m3u8?expiredTime=1768368910&tul=bd00d4e41e1d2f33981770179b17f01e523945042e25288fd20ebb08932128672db3477658150948860ee577aeec5d123c713f15d097206aa7c56e8f7d721c0d"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/eezgpyhjvn/720p/vpz4h1rjie_720p.m3u8?expiredTime=1768494210&tul=b8a1d7fb5c0f5fd06f0c154496eb6be782699f329eb869a63277cce3f82a60595b3544f240266d074b0645d74dfe93df01cfe976737daabbd4a0c0d2d3c6360a"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/hppvl3gzjl/540p/s7lc9uqhzw_540p.m3u8?__token__=exp=1768368910~hmac=9a3bd51ec128c1e6eaab0436c6d28da4dbba961d557f3a228baca0f76a245a3a",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/eezgpyhjvn/540p/vpz4h1rjie_540p.m3u8?__token__=exp=1768494210~hmac=bc266b492683fd327e43ea8d7d1f00d9432cd1e6e7d28bcf4fa8f03d6344adcc",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/hppvl3gzjl/540p/s7lc9uqhzw_540p.m3u8?expiredTime=1768368910&tul=fcdba7e02a6638eaf736ef772c9b9f44bcc2adcb87b8b665840bc15b608eec55a3f39b86d7b58db7b4da46f8b48dbc578daf3e98b3d4d75e1c6e665903327704"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/eezgpyhjvn/540p/vpz4h1rjie_540p.m3u8?expiredTime=1768494210&tul=7ee95cf4f6f06382c80c8de8c246b3b88a78f757ff0ce77fddd38d0b18defe8c9f905c6d14cf3ef5b42c430a81e1d5696a32dcdc5c4569ce8f22bae3d716ef03"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/hppvl3gzjl/1080p/s7lc9uqhzw_1080p.m3u8?__token__=exp=1768368910~hmac=b9b54fb404516758ce071db7b6641e5ce00ae46b91735571b433f20110688da3",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/eezgpyhjvn/1080p/vpz4h1rjie_1080p.m3u8?__token__=exp=1768494210~hmac=f32df3b913ce29a867c730501a710d6d2d182474584bcae39b2bf6e46947b11a",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/hppvl3gzjl/1080p/s7lc9uqhzw_1080p.m3u8?expiredTime=1768368910&tul=5081faac38192c41bbfb2f510bb4540316ba82be7ae6dfd86d233a9073e4452f664b95afff19162ddadeca8adaa0f67d53f0b71e472935ff951e6edbc540bd0c"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/eezgpyhjvn/1080p/vpz4h1rjie_1080p.m3u8?expiredTime=1768494210&tul=cf3965a56916d185b7ba7f370860ffd9931a0fb729f28dc07c439efe1fbea3b203856ec68f328fc6bc41f8f946113b056973490bdd697fe8223ccd95b9209c0f"
               }
             ]
           }
         ],
-        "playCountDisplay": "102.9K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/hppvl3gzjl/720p/s7lc9uqhzw_720p.m3u8?__token__=exp=1768368910~hmac=c652c97b44a2965da6a0a89105f2c2109027699a6ed33d638389af8a16090fc1"
+        "playCountDisplay": "24.0K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/eezgpyhjvn/720p/vpz4h1rjie_720p.m3u8?__token__=exp=1768494210~hmac=6023db53249a0c34328c993a6080d35e94dfee80f5b2814c1b3a5999df51663c"
       },
       {
-        "id": 16038577,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993194,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "011",
-        "playTime": 101,
+        "playTime": 183,
         "price": 0,
-        "prevChapterId": 16038576,
+        "prevChapterId": 13993193,
         "prevChapterName": "010",
-        "nextChapterId": 16038578,
+        "nextChapterId": 13993195,
         "nextChapterName": "012",
         "status": 1,
         "index": 10,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/6hwi7ssswx/720p/rm9xgxigj6_720p.m3u8?expiredTime=1768369071&tul=4321b618ac042416b1d6c5c95894bbbe2ad04cde3aa8492e6687ebf8d367c799fc7165cbb4143ce974420ca8d09dcd395881ebde1abf2a0520f0f270169cc20f"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/diwhcmj3mx/720p/92yb0hpdjk_720p.m3u8?expiredTime=1768494210&tul=5184961caeaa9b87c2b120c1a95ae8c31e2d9d97f5235a069ea751a5454a93fdd17f84ea14343f6b469c4dd87eb667c9a93875ed23a40aee40b15fda10553b01"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-F0RMecfBQy.jpg?a=webp",
-        "playCount": 103141,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-ZcKiy6WQ81.jpg?a=webp",
+        "playCount": 24513,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/6hwi7ssswx/720p/rm9xgxigj6_720p.m3u8?__token__=exp=1768369071~hmac=8151751303bad6263c1da1c0f19c720c4d9d9239630b165acaea792a59747c7c",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/diwhcmj3mx/720p/92yb0hpdjk_720p.m3u8?__token__=exp=1768494210~hmac=72de92b90bbf48540c68c5f32b0fd614d832aeea1079cedabe0d3695ae69c783",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/6hwi7ssswx/720p/rm9xgxigj6_720p.m3u8?expiredTime=1768369071&tul=4321b618ac042416b1d6c5c95894bbbe2ad04cde3aa8492e6687ebf8d367c799fc7165cbb4143ce974420ca8d09dcd395881ebde1abf2a0520f0f270169cc20f"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/diwhcmj3mx/720p/92yb0hpdjk_720p.m3u8?expiredTime=1768494210&tul=5184961caeaa9b87c2b120c1a95ae8c31e2d9d97f5235a069ea751a5454a93fdd17f84ea14343f6b469c4dd87eb667c9a93875ed23a40aee40b15fda10553b01"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/6hwi7ssswx/540p/rm9xgxigj6_540p.m3u8?__token__=exp=1768369071~hmac=1ba5ea6c5deee95bf9b9c1450d06704cafa46f5a472923941aaac0afb5d73310",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/diwhcmj3mx/540p/92yb0hpdjk_540p.m3u8?__token__=exp=1768494210~hmac=697ac2ca7e279d189af366e71427751321ffc422ec5246d2b7bd15fd558633fe",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/6hwi7ssswx/540p/rm9xgxigj6_540p.m3u8?expiredTime=1768369071&tul=1eed39ae57472e1e260856834362c05e2abbb669728d96000a2b503cdb4defff27cb9ac3bc9857423ec6b618e244e093d175ec3bfe8682ea11b178927957b207"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/diwhcmj3mx/540p/92yb0hpdjk_540p.m3u8?expiredTime=1768494210&tul=c54543a4bd143afd8132fe723512f2e908ba2ac623e3f9f323c52b9b4ab5a97edc521b0b9a9d6c5e70ef2c125b16e49d9ba067e5fd4fbc2533478a3d36146102"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/6hwi7ssswx/1080p/rm9xgxigj6_1080p.m3u8?__token__=exp=1768369071~hmac=005dd826220ceb84e3b5c62920e21aad0440316f0d2403c3f8609155382608f9",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/diwhcmj3mx/1080p/92yb0hpdjk_1080p.m3u8?__token__=exp=1768494210~hmac=3b052145eb61b7a9b5816eebb5d6ee49b3230ffa3865bee0a14c78c8a52c48cc",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/6hwi7ssswx/1080p/rm9xgxigj6_1080p.m3u8?expiredTime=1768369071&tul=667c90a869ad7b80e0ce107fac9baf02501a931bdcca6ef300315c219985cfa957a080c347657d32278061b14c9b6e21616e7ca85f34cfa410ce080b9ea30f04"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/diwhcmj3mx/1080p/92yb0hpdjk_1080p.m3u8?expiredTime=1768494210&tul=ff015dd4fdc158e1133456dfb02737eed09d10e6167e3adad9c5276a21078fb1e6573cd1d65478e6b070295165933aa3fdd97c865e2a47d556aedcbeda2dfc0e"
               }
             ]
           }
         ],
-        "playCountDisplay": "103.1K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/6hwi7ssswx/720p/rm9xgxigj6_720p.m3u8?__token__=exp=1768369071~hmac=8151751303bad6263c1da1c0f19c720c4d9d9239630b165acaea792a59747c7c"
+        "playCountDisplay": "24.5K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/diwhcmj3mx/720p/92yb0hpdjk_720p.m3u8?__token__=exp=1768494210~hmac=72de92b90bbf48540c68c5f32b0fd614d832aeea1079cedabe0d3695ae69c783"
       },
       {
-        "id": 16038578,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993195,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "012",
-        "playTime": 78,
+        "playTime": 157,
         "price": 0,
-        "prevChapterId": 16038577,
+        "prevChapterId": 13993194,
         "prevChapterName": "011",
-        "nextChapterId": 16038579,
+        "nextChapterId": 13993196,
         "nextChapterName": "013",
         "status": 1,
         "index": 11,
         "cdnList": [
           {
             "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/zpzemf35pr/720p/idi7mmctfv_720p.m3u8?expiredTime=1768369071&tul=e1744d3a1b8d6b635b403cb01f6e9f4d38b33ad65d0a2b04bad0a2c3ed7a5ef51521bf9cfeeafc6614da72fb593561dec6ed841b848409e4d6e8852c3dbdf10a"
+            "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/actc9nkzo9/720p/je6u6klmtt_720p.m3u8?expiredTime=1768494210&tul=e9c69d83945376cad9f3c6d6b705ccc74facd4db6daec87bf35cd0c9d76cac08999262a2cb8f21ceac42d50b068b433068f60e294f9fe4e1ad0c46986cebe509"
           }
         ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-Tc5OG2u8pS.jpg?a=webp",
-        "playCount": 103864,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-qJYth36jOn.jpg?a=webp",
+        "playCount": 27909,
         "multiVideos": [
           {
             "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/zpzemf35pr/720p/idi7mmctfv_720p.m3u8?__token__=exp=1768369071~hmac=55599c32664403107b2406c0eff3f6b39fecf1dc776907c5289050c568f53aac",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/actc9nkzo9/720p/je6u6klmtt_720p.m3u8?__token__=exp=1768494210~hmac=691a205bd8a2010ad88e46542469faa701929acbac03be8f5fb05fe7f08f84cd",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/zpzemf35pr/720p/idi7mmctfv_720p.m3u8?expiredTime=1768369071&tul=e1744d3a1b8d6b635b403cb01f6e9f4d38b33ad65d0a2b04bad0a2c3ed7a5ef51521bf9cfeeafc6614da72fb593561dec6ed841b848409e4d6e8852c3dbdf10a"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/actc9nkzo9/720p/je6u6klmtt_720p.m3u8?expiredTime=1768494210&tul=e9c69d83945376cad9f3c6d6b705ccc74facd4db6daec87bf35cd0c9d76cac08999262a2cb8f21ceac42d50b068b433068f60e294f9fe4e1ad0c46986cebe509"
               }
             ]
           },
           {
             "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/zpzemf35pr/540p/idi7mmctfv_540p.m3u8?__token__=exp=1768369071~hmac=7c58b4829dadebc79dcb5b873ad5c9f3254135264f9d9eafc5f625869af51309",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/actc9nkzo9/540p/je6u6klmtt_540p.m3u8?__token__=exp=1768494210~hmac=cae1c27b7b90635ad4d146b0bcba611e363bac2f37c373e5d844dd0f426e06c8",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/zpzemf35pr/540p/idi7mmctfv_540p.m3u8?expiredTime=1768369071&tul=fdb9c26ceff806e894f7054cb0d669934b10f173ef6192204a50e72411ce1af12aafbcf889c8a1b07736582be4a9a247c41a1c106606e20e47a6c753595ce303"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/actc9nkzo9/540p/je6u6klmtt_540p.m3u8?expiredTime=1768494210&tul=2cd08974816aab3329285bfd6f6e95cf486e159e92ffcf2c57ad1379c280e81204d8c4b1bebe68e89d9309a23cb7175b1f09e13ec6f721b4a77b99141d0ca106"
               }
             ]
           },
           {
             "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/zpzemf35pr/1080p/idi7mmctfv_1080p.m3u8?__token__=exp=1768369071~hmac=b280ad0dbdb10660134814f566d16aea8fd5b54fc0e58a48fde21268e35978cf",
+            "filePath": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/actc9nkzo9/1080p/je6u6klmtt_1080p.m3u8?__token__=exp=1768494210~hmac=14b2fb75c9bbe8df2de62fc46cda9b9535e892c354a8f7b8d7ca22a0850dcd7d",
             "cdnList": [
               {
                 "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/zpzemf35pr/1080p/idi7mmctfv_1080p.m3u8?expiredTime=1768369071&tul=5ead8a5e84fc19e2b4eda2bb9e0dfd394165e51e17601c8b1aa6f7a6a8413aa9b343aa079cacf1b0c882f98deaaeee366ef9c13f72c7871127b2bd84c59b9405"
+                "videoPath": "https://v3.goodshort.com/mts/books/077/31001112077/540131/actc9nkzo9/1080p/je6u6klmtt_1080p.m3u8?expiredTime=1768494210&tul=48debf22693a1c94c9594f7bb0575d0a4c5d1648ebdb7b1a1941a37052abf38d10df6f635a6c9cf690b87a24b0bf0ccd1875718e1b9e07160c849952cd2a940c"
               }
             ]
           }
         ],
-        "playCountDisplay": "103.8K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/zpzemf35pr/720p/idi7mmctfv_720p.m3u8?__token__=exp=1768369071~hmac=55599c32664403107b2406c0eff3f6b39fecf1dc776907c5289050c568f53aac"
+        "playCountDisplay": "27.9K",
+        "cdn": "https://v2-akm.goodreels.com/mts/books/077/31001112077/540131/actc9nkzo9/720p/je6u6klmtt_720p.m3u8?__token__=exp=1768494210~hmac=691a205bd8a2010ad88e46542469faa701929acbac03be8f5fb05fe7f08f84cd"
       },
       {
-        "id": 16038579,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993196,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "013",
-        "playTime": 82,
-        "price": 0,
-        "prevChapterId": 16038578,
+        "playTime": 134,
+        "price": 50,
+        "prevChapterId": 13993195,
         "prevChapterName": "012",
-        "nextChapterId": 16038580,
+        "nextChapterId": 13993197,
         "nextChapterName": "014",
         "status": 1,
         "index": 12,
-        "cdnList": [
-          {
-            "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/trikn2vc8i/720p/azxvkyuxwu_720p.m3u8?expiredTime=1768369071&tul=25b9eb5787b4ea97745a6673b7309765a365c923eeff9e633d86b47040f2dd77e952412b01f7d250ee0346e8e3b57de061bc98939da3ed90db52ed8eea67ad00"
-          }
-        ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-sreCFp4Fsx.jpg?a=webp",
-        "playCount": 105806,
-        "multiVideos": [
-          {
-            "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/trikn2vc8i/720p/azxvkyuxwu_720p.m3u8?__token__=exp=1768369071~hmac=1fa89d2edf81788dd520a6fbed2c88873d87a395fc9784f858b3063f571535b8",
-            "cdnList": [
-              {
-                "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/trikn2vc8i/720p/azxvkyuxwu_720p.m3u8?expiredTime=1768369071&tul=25b9eb5787b4ea97745a6673b7309765a365c923eeff9e633d86b47040f2dd77e952412b01f7d250ee0346e8e3b57de061bc98939da3ed90db52ed8eea67ad00"
-              }
-            ]
-          },
-          {
-            "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/trikn2vc8i/540p/azxvkyuxwu_540p.m3u8?__token__=exp=1768369071~hmac=0bc92ce79f86e0fe32f5e08b484f297a1aa6ddd317c559f0b473caf58be8e950",
-            "cdnList": [
-              {
-                "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/trikn2vc8i/540p/azxvkyuxwu_540p.m3u8?expiredTime=1768369071&tul=1cb18edb528afb629c043ab1e3f5c69e49edb81d6b4a5789e1ce3f1f77d2862b81a4c0076ff1fe6a311dbdf595055482ce559fbb549426513eb5835b40f0870b"
-              }
-            ]
-          },
-          {
-            "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/trikn2vc8i/1080p/azxvkyuxwu_1080p.m3u8?__token__=exp=1768369071~hmac=ca1104d6607d5df1204cfc82d88aaf8a0ffa5cdf890896463bf69a61085b0190",
-            "cdnList": [
-              {
-                "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/trikn2vc8i/1080p/azxvkyuxwu_1080p.m3u8?expiredTime=1768369071&tul=94e19244745decef6b7c16b9ad942daf0378732a3b9aeb12faec46b190043eefed93c6e70cc2c64733f066d64d72dcaba6e0659b107b84988f077658c48b9c0e"
-              }
-            ]
-          }
-        ],
-        "playCountDisplay": "105.8K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/trikn2vc8i/720p/azxvkyuxwu_720p.m3u8?__token__=exp=1768369071~hmac=1fa89d2edf81788dd520a6fbed2c88873d87a395fc9784f858b3063f571535b8"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-NqAoiY5h1M.jpg?a=webp",
+        "playCount": 28539,
+        "playCountDisplay": "28.5K"
       },
       {
-        "id": 16038580,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993197,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "014",
-        "playTime": 111,
-        "price": 0,
-        "prevChapterId": 16038579,
+        "playTime": 91,
+        "price": 50,
+        "prevChapterId": 13993196,
         "prevChapterName": "013",
-        "nextChapterId": 16038581,
+        "nextChapterId": 13993198,
         "nextChapterName": "015",
         "status": 1,
         "index": 13,
-        "cdnList": [
-          {
-            "cdnDomain": "https://v3.goodshort.com",
-            "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/tigvtonmba/720p/cbidrkuw4n_720p.m3u8?expiredTime=1768368910&tul=806c44b3d38a0e9def0b497b57ae00567e7a0253d4ef00e8c4d234a9a96231fc7548352b583ac45a191578fdb916271eea3564282b88c89d1f33a09e73361e0b"
-          }
-        ],
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-ZB95vEKp0x.jpg?a=webp",
-        "playCount": 115896,
-        "multiVideos": [
-          {
-            "type": "720p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/tigvtonmba/720p/cbidrkuw4n_720p.m3u8?__token__=exp=1768368910~hmac=e72ddf463b27fe5e43a5e2374b76c39526a6eaed59598924c6b5e96d2f9f4015",
-            "cdnList": [
-              {
-                "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/tigvtonmba/720p/cbidrkuw4n_720p.m3u8?expiredTime=1768368910&tul=806c44b3d38a0e9def0b497b57ae00567e7a0253d4ef00e8c4d234a9a96231fc7548352b583ac45a191578fdb916271eea3564282b88c89d1f33a09e73361e0b"
-              }
-            ]
-          },
-          {
-            "type": "540p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/tigvtonmba/540p/cbidrkuw4n_540p.m3u8?__token__=exp=1768368910~hmac=2eb63860bb0d77e64c9ca12e83f066982195bf91f996131991d62a9a854f9049",
-            "cdnList": [
-              {
-                "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/tigvtonmba/540p/cbidrkuw4n_540p.m3u8?expiredTime=1768368910&tul=2260042475d469f36b3c1362dda90f61f84c8d30890109554e0190aa30f6a261d7b654ebb2563e79ab9e2542326c904737a2d0ef19733b101fd96ede1f876200"
-              }
-            ]
-          },
-          {
-            "type": "1080p",
-            "filePath": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/tigvtonmba/1080p/cbidrkuw4n_1080p.m3u8?__token__=exp=1768368910~hmac=2ae703a6b712e3f4f885842cd3983a613585284f1f1995a26fe906950f87c014",
-            "cdnList": [
-              {
-                "cdnDomain": "https://v3.goodshort.com",
-                "videoPath": "https://v3.goodshort.com/mts/books/861/31001219861/624350/tigvtonmba/1080p/cbidrkuw4n_1080p.m3u8?expiredTime=1768368910&tul=2fe5644c4a2ed1b217167e49c55bad58de76a640370b3c7aee0b96ec9be07efc1d493d78c2cf25eaa1a401f13e1428cb40f0da328cd3fd712193fcca743c080c"
-              }
-            ]
-          }
-        ],
-        "playCountDisplay": "115.8K",
-        "cdn": "https://v2-akm.goodreels.com/mts/books/861/31001219861/624350/tigvtonmba/720p/cbidrkuw4n_720p.m3u8?__token__=exp=1768368910~hmac=e72ddf463b27fe5e43a5e2374b76c39526a6eaed59598924c6b5e96d2f9f4015"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-QcPe6XZLAh.jpg?a=webp",
+        "playCount": 22297,
+        "playCountDisplay": "22.2K"
       },
       {
-        "id": 16038581,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993198,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "015",
-        "playTime": 110,
+        "playTime": 75,
         "price": 50,
-        "prevChapterId": 16038580,
+        "prevChapterId": 13993197,
         "prevChapterName": "014",
-        "nextChapterId": 16038582,
+        "nextChapterId": 13993199,
         "nextChapterName": "016",
         "status": 1,
         "index": 14,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-5E3p6Z4ccU.jpg?a=webp",
-        "playCount": 117778,
-        "playCountDisplay": "117.7K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-Ii0m6Qf42J.jpg?a=webp",
+        "playCount": 19601,
+        "playCountDisplay": "19.6K"
       },
       {
-        "id": 16038582,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993199,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "016",
         "playTime": 101,
-        "price": 50,
-        "prevChapterId": 16038581,
+        "price": 70,
+        "prevChapterId": 13993198,
         "prevChapterName": "015",
-        "nextChapterId": 16038583,
+        "nextChapterId": 13993200,
         "nextChapterName": "017",
         "status": 1,
         "index": 15,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-Fbjg4SH363.jpg?a=webp",
-        "playCount": 97374,
-        "playCountDisplay": "97.3K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-m2f4jT9KEJ.jpg?a=webp",
+        "playCount": 19776,
+        "playCountDisplay": "19.7K"
       },
       {
-        "id": 16038583,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993200,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "017",
-        "playTime": 63,
-        "price": 50,
-        "prevChapterId": 16038582,
+        "playTime": 98,
+        "price": 70,
+        "prevChapterId": 13993199,
         "prevChapterName": "016",
-        "nextChapterId": 16038584,
+        "nextChapterId": 13993201,
         "nextChapterName": "018",
         "status": 1,
         "index": 16,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-IN7NCPPrt0.jpg?a=webp",
-        "playCount": 95198,
-        "playCountDisplay": "95.1K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-RuAJAmymC4.jpg?a=webp",
+        "playCount": 20380,
+        "playCountDisplay": "20.3K"
       },
       {
-        "id": 16038584,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993201,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "018",
-        "playTime": 62,
+        "playTime": 91,
         "price": 70,
-        "prevChapterId": 16038583,
+        "prevChapterId": 13993200,
         "prevChapterName": "017",
-        "nextChapterId": 16038585,
+        "nextChapterId": 13993202,
         "nextChapterName": "019",
         "status": 1,
         "index": 17,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-3FGHIBJyd8.jpg?a=webp",
-        "playCount": 93012,
-        "playCountDisplay": "93.0K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-TZlCyj0S4z.jpg?a=webp",
+        "playCount": 19570,
+        "playCountDisplay": "19.5K"
       },
       {
-        "id": 16038585,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993202,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "019",
-        "playTime": 124,
+        "playTime": 95,
         "price": 70,
-        "prevChapterId": 16038584,
+        "prevChapterId": 13993201,
         "prevChapterName": "018",
-        "nextChapterId": 16038586,
+        "nextChapterId": 13993203,
         "nextChapterName": "020",
         "status": 1,
         "index": 18,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-mRoF9jCXas.jpg?a=webp",
-        "playCount": 91703,
-        "playCountDisplay": "91.7K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-v1wZrZoeey.jpg?a=webp",
+        "playCount": 18613,
+        "playCountDisplay": "18.6K"
       },
       {
-        "id": 16038586,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993203,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "020",
-        "playTime": 99,
+        "playTime": 117,
         "price": 70,
-        "prevChapterId": 16038585,
+        "prevChapterId": 13993202,
         "prevChapterName": "019",
-        "nextChapterId": 16038587,
+        "nextChapterId": 13993204,
         "nextChapterName": "021",
         "status": 1,
         "index": 19,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-Wm1CD4YJxi.jpg?a=webp",
-        "playCount": 91511,
-        "playCountDisplay": "91.5K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-45WpzLIrJD.jpg?a=webp",
+        "playCount": 17575,
+        "playCountDisplay": "17.5K"
       },
       {
-        "id": 16038587,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993204,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "021",
-        "playTime": 123,
+        "playTime": 114,
         "price": 70,
-        "prevChapterId": 16038586,
+        "prevChapterId": 13993203,
         "prevChapterName": "020",
-        "nextChapterId": 16038588,
+        "nextChapterId": 13993205,
         "nextChapterName": "022",
         "status": 1,
         "index": 20,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-jUOsrGr3OW.jpg?a=webp",
-        "playCount": 83315,
-        "playCountDisplay": "83.3K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-RksHmuqaHN.jpg?a=webp",
+        "playCount": 17943,
+        "playCountDisplay": "17.9K"
       },
       {
-        "id": 16038588,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993205,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "022",
-        "playTime": 103,
+        "playTime": 116,
         "price": 70,
-        "prevChapterId": 16038587,
+        "prevChapterId": 13993204,
         "prevChapterName": "021",
-        "nextChapterId": 16038589,
+        "nextChapterId": 13993206,
         "nextChapterName": "023",
         "status": 1,
         "index": 21,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-lZGXCdzPp0.jpg?a=webp",
-        "playCount": 81462,
-        "playCountDisplay": "81.4K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-KVNHAYsH7k.jpg?a=webp",
+        "playCount": 18449,
+        "playCountDisplay": "18.4K"
       },
       {
-        "id": 16038589,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993206,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "023",
-        "playTime": 52,
+        "playTime": 128,
         "price": 70,
-        "prevChapterId": 16038588,
+        "prevChapterId": 13993205,
         "prevChapterName": "022",
-        "nextChapterId": 16038590,
+        "nextChapterId": 13993207,
         "nextChapterName": "024",
         "status": 1,
         "index": 22,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-TIA3n48dBE.jpg?a=webp",
-        "playCount": 80144,
-        "playCountDisplay": "80.1K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-GMJUydnE1q.jpg?a=webp",
+        "playCount": 17689,
+        "playCountDisplay": "17.6K"
       },
       {
-        "id": 16038590,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993207,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "024",
-        "playTime": 56,
+        "playTime": 160,
         "price": 70,
-        "prevChapterId": 16038589,
+        "prevChapterId": 13993206,
         "prevChapterName": "023",
-        "nextChapterId": 16038591,
+        "nextChapterId": 13993208,
         "nextChapterName": "025",
         "status": 1,
         "index": 23,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-GC9nCYnKSr.jpg?a=webp",
-        "playCount": 78834,
-        "playCountDisplay": "78.8K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-deSRNd17ot.jpg?a=webp",
+        "playCount": 16216,
+        "playCountDisplay": "16.2K"
       },
       {
-        "id": 16038591,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993208,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "025",
-        "playTime": 76,
+        "playTime": 77,
         "price": 70,
-        "prevChapterId": 16038590,
+        "prevChapterId": 13993207,
         "prevChapterName": "024",
-        "nextChapterId": 16038592,
+        "nextChapterId": 13993209,
         "nextChapterName": "026",
         "status": 1,
         "index": 24,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-V40N0PMHrH.jpg?a=webp",
-        "playCount": 77410,
-        "playCountDisplay": "77.4K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-Ix0UVfMgkb.jpg?a=webp",
+        "playCount": 16909,
+        "playCountDisplay": "16.9K"
       },
       {
-        "id": 16038592,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993209,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "026",
-        "playTime": 88,
+        "playTime": 119,
         "price": 70,
-        "prevChapterId": 16038591,
+        "prevChapterId": 13993208,
         "prevChapterName": "025",
-        "nextChapterId": 16038593,
+        "nextChapterId": 13993210,
         "nextChapterName": "027",
         "status": 1,
         "index": 25,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-3VwEbnAwX6.jpg?a=webp",
-        "playCount": 73973,
-        "playCountDisplay": "73.9K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-JLfle0zQ5V.jpg?a=webp",
+        "playCount": 15627,
+        "playCountDisplay": "15.6K"
       },
       {
-        "id": 16038593,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993210,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "027",
-        "playTime": 61,
+        "playTime": 111,
         "price": 70,
-        "prevChapterId": 16038592,
+        "prevChapterId": 13993209,
         "prevChapterName": "026",
-        "nextChapterId": 16038594,
+        "nextChapterId": 13993211,
         "nextChapterName": "028",
         "status": 1,
         "index": 26,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-ci63fPIOJN.jpg?a=webp",
-        "playCount": 70725,
-        "playCountDisplay": "70.7K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-WslszpNQ0K.jpg?a=webp",
+        "playCount": 16571,
+        "playCountDisplay": "16.5K"
       },
       {
-        "id": 16038594,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993211,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "028",
-        "playTime": 83,
+        "playTime": 81,
         "price": 70,
-        "prevChapterId": 16038593,
+        "prevChapterId": 13993210,
         "prevChapterName": "027",
-        "nextChapterId": 16038595,
+        "nextChapterId": 13993212,
         "nextChapterName": "029",
         "status": 1,
         "index": 27,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-bNUyuO1m0v.jpg?a=webp",
-        "playCount": 70033,
-        "playCountDisplay": "70.0K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-T737DMlkkc.jpg?a=webp",
+        "playCount": 14656,
+        "playCountDisplay": "14.6K"
       },
       {
-        "id": 16038595,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993212,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "029",
-        "playTime": 69,
+        "playTime": 112,
         "price": 70,
-        "prevChapterId": 16038594,
+        "prevChapterId": 13993211,
         "prevChapterName": "028",
-        "nextChapterId": 16038596,
+        "nextChapterId": 13993213,
         "nextChapterName": "030",
         "status": 1,
         "index": 28,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-tOWtXZGQzN.jpg?a=webp",
-        "playCount": 69048,
-        "playCountDisplay": "69.0K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-MBKOj0mn05.jpg?a=webp",
+        "playCount": 14728,
+        "playCountDisplay": "14.7K"
       },
       {
-        "id": 16038596,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993213,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "030",
-        "playTime": 64,
+        "playTime": 97,
         "price": 70,
-        "prevChapterId": 16038595,
+        "prevChapterId": 13993212,
         "prevChapterName": "029",
-        "nextChapterId": 16038597,
+        "nextChapterId": 13993214,
         "nextChapterName": "031",
         "status": 1,
         "index": 29,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-lqyfu8a75v.jpg?a=webp",
-        "playCount": 68775,
-        "playCountDisplay": "68.7K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-TGxi0nqhju.jpg?a=webp",
+        "playCount": 15680,
+        "playCountDisplay": "15.6K"
       },
       {
-        "id": 16038597,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993214,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "031",
-        "playTime": 63,
+        "playTime": 97,
         "price": 70,
-        "prevChapterId": 16038596,
+        "prevChapterId": 13993213,
         "prevChapterName": "030",
-        "nextChapterId": 16038598,
+        "nextChapterId": 13993215,
         "nextChapterName": "032",
         "status": 1,
         "index": 30,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-0XrvPA2TEE.jpg?a=webp",
-        "playCount": 69125,
-        "playCountDisplay": "69.1K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-Q6f9O1TYAd.jpg?a=webp",
+        "playCount": 15793,
+        "playCountDisplay": "15.7K"
       },
       {
-        "id": 16038598,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993215,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "032",
-        "playTime": 110,
+        "playTime": 104,
         "price": 70,
-        "prevChapterId": 16038597,
+        "prevChapterId": 13993214,
         "prevChapterName": "031",
-        "nextChapterId": 16038599,
+        "nextChapterId": 13993216,
         "nextChapterName": "033",
         "status": 1,
         "index": 31,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-KOFFOwKoIt.jpg?a=webp",
-        "playCount": 67316,
-        "playCountDisplay": "67.3K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-5mSzf47oEh.jpg?a=webp",
+        "playCount": 15917,
+        "playCountDisplay": "15.9K"
       },
       {
-        "id": 16038599,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993216,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "033",
-        "playTime": 76,
+        "playTime": 88,
         "price": 70,
-        "prevChapterId": 16038598,
+        "prevChapterId": 13993215,
         "prevChapterName": "032",
-        "nextChapterId": 16038600,
+        "nextChapterId": 13993217,
         "nextChapterName": "034",
         "status": 1,
         "index": 32,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-9AoCF0yY6p.jpg?a=webp",
-        "playCount": 66439,
-        "playCountDisplay": "66.4K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-1vD79xgII9.jpg?a=webp",
+        "playCount": 14649,
+        "playCountDisplay": "14.6K"
       },
       {
-        "id": 16038600,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993217,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "034",
-        "playTime": 56,
+        "playTime": 103,
         "price": 70,
-        "prevChapterId": 16038599,
+        "prevChapterId": 13993216,
         "prevChapterName": "033",
-        "nextChapterId": 16038601,
+        "nextChapterId": 13993218,
         "nextChapterName": "035",
         "status": 1,
         "index": 33,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-NFnb9wtXfi.jpg?a=webp",
-        "playCount": 66212,
-        "playCountDisplay": "66.2K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-3AOETlEqPo.jpg?a=webp",
+        "playCount": 14292,
+        "playCountDisplay": "14.2K"
       },
       {
-        "id": 16038601,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993218,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "035",
-        "playTime": 50,
+        "playTime": 97,
         "price": 70,
-        "prevChapterId": 16038600,
+        "prevChapterId": 13993217,
         "prevChapterName": "034",
-        "nextChapterId": 16038602,
+        "nextChapterId": 13993219,
         "nextChapterName": "036",
         "status": 1,
         "index": 34,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-7hkrJIxyvk.jpg?a=webp",
-        "playCount": 65527,
-        "playCountDisplay": "65.5K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-iC8WdeHVsU.jpg?a=webp",
+        "playCount": 14291,
+        "playCountDisplay": "14.2K"
       },
       {
-        "id": 16038602,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993219,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "036",
-        "playTime": 93,
+        "playTime": 119,
         "price": 70,
-        "prevChapterId": 16038601,
+        "prevChapterId": 13993218,
         "prevChapterName": "035",
-        "nextChapterId": 16038603,
+        "nextChapterId": 13993220,
         "nextChapterName": "037",
         "status": 1,
         "index": 35,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-a44bOk2uGW.jpg?a=webp",
-        "playCount": 63691,
-        "playCountDisplay": "63.6K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-R793mb3sIW.jpg?a=webp",
+        "playCount": 14563,
+        "playCountDisplay": "14.5K"
       },
       {
-        "id": 16038603,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993220,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "037",
-        "playTime": 98,
+        "playTime": 95,
         "price": 70,
-        "prevChapterId": 16038602,
+        "prevChapterId": 13993219,
         "prevChapterName": "036",
-        "nextChapterId": 16038604,
+        "nextChapterId": 13993221,
         "nextChapterName": "038",
         "status": 1,
         "index": 36,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-t69vp1JO2Q.jpg?a=webp",
-        "playCount": 62674,
-        "playCountDisplay": "62.6K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-zEVUodEgHS.jpg?a=webp",
+        "playCount": 14646,
+        "playCountDisplay": "14.6K"
       },
       {
-        "id": 16038604,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993221,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "038",
-        "playTime": 58,
+        "playTime": 101,
         "price": 70,
-        "prevChapterId": 16038603,
+        "prevChapterId": 13993220,
         "prevChapterName": "037",
-        "nextChapterId": 16038605,
+        "nextChapterId": 13993222,
         "nextChapterName": "039",
         "status": 1,
         "index": 37,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-10gL15rNxz.jpg?a=webp",
-        "playCount": 60574,
-        "playCountDisplay": "60.5K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-GJCmD65lFS.jpg?a=webp",
+        "playCount": 13782,
+        "playCountDisplay": "13.7K"
       },
       {
-        "id": 16038605,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993222,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "039",
-        "playTime": 108,
+        "playTime": 85,
         "price": 70,
-        "prevChapterId": 16038604,
+        "prevChapterId": 13993221,
         "prevChapterName": "038",
-        "nextChapterId": 16038606,
+        "nextChapterId": 13993223,
         "nextChapterName": "040",
         "status": 1,
         "index": 38,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-DPXzbnKzxI.jpg?a=webp",
-        "playCount": 60178,
-        "playCountDisplay": "60.1K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-Rsocreo4MN.jpg?a=webp",
+        "playCount": 13127,
+        "playCountDisplay": "13.1K"
       },
       {
-        "id": 16038606,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993223,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "040",
-        "playTime": 121,
+        "playTime": 105,
         "price": 70,
-        "prevChapterId": 16038605,
+        "prevChapterId": 13993222,
         "prevChapterName": "039",
-        "nextChapterId": 16038607,
+        "nextChapterId": 13993224,
         "nextChapterName": "041",
         "status": 1,
         "index": 39,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-cYovfhyqD3.jpg?a=webp",
-        "playCount": 59923,
-        "playCountDisplay": "59.9K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-PE2eHW2Dhs.jpg?a=webp",
+        "playCount": 12989,
+        "playCountDisplay": "12.9K"
       },
       {
-        "id": 16038607,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993224,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "041",
-        "playTime": 75,
+        "playTime": 74,
         "price": 70,
-        "prevChapterId": 16038606,
+        "prevChapterId": 13993223,
         "prevChapterName": "040",
-        "nextChapterId": 16038608,
+        "nextChapterId": 13993225,
         "nextChapterName": "042",
         "status": 1,
         "index": 40,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-0e6SUauSnX.jpg?a=webp",
-        "playCount": 59121,
-        "playCountDisplay": "59.1K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-vw5YpDNQmU.jpg?a=webp",
+        "playCount": 13180,
+        "playCountDisplay": "13.1K"
       },
       {
-        "id": 16038608,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993225,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "042",
-        "playTime": 87,
+        "playTime": 88,
         "price": 70,
-        "prevChapterId": 16038607,
+        "prevChapterId": 13993224,
         "prevChapterName": "041",
-        "nextChapterId": 16038609,
+        "nextChapterId": 13993226,
         "nextChapterName": "043",
         "status": 1,
         "index": 41,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-maTLY206dD.jpg?a=webp",
-        "playCount": 58930,
-        "playCountDisplay": "58.9K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-qUOPFCARI9.jpg?a=webp",
+        "playCount": 13732,
+        "playCountDisplay": "13.7K"
       },
       {
-        "id": 16038609,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993226,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "043",
-        "playTime": 63,
+        "playTime": 71,
         "price": 70,
-        "prevChapterId": 16038608,
+        "prevChapterId": 13993225,
         "prevChapterName": "042",
-        "nextChapterId": 16038610,
+        "nextChapterId": 13993227,
         "nextChapterName": "044",
         "status": 1,
         "index": 42,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-bJV99yI7nA.jpg?a=webp",
-        "playCount": 58620,
-        "playCountDisplay": "58.6K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-RPSBUCoijy.jpg?a=webp",
+        "playCount": 13612,
+        "playCountDisplay": "13.6K"
       },
       {
-        "id": 16038610,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993227,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "044",
-        "playTime": 59,
+        "playTime": 104,
         "price": 70,
-        "prevChapterId": 16038609,
+        "prevChapterId": 13993226,
         "prevChapterName": "043",
-        "nextChapterId": 16038611,
+        "nextChapterId": 13993228,
         "nextChapterName": "045",
         "status": 1,
         "index": 43,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-40jGhNyQqt.jpg?a=webp",
-        "playCount": 58323,
-        "playCountDisplay": "58.3K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-B4MmwL1WnY.jpg?a=webp",
+        "playCount": 13902,
+        "playCountDisplay": "13.9K"
       },
       {
-        "id": 16038611,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993228,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "045",
-        "playTime": 43,
+        "playTime": 81,
         "price": 70,
-        "prevChapterId": 16038610,
+        "prevChapterId": 13993227,
         "prevChapterName": "044",
-        "nextChapterId": 16038612,
+        "nextChapterId": 13993229,
         "nextChapterName": "046",
         "status": 1,
         "index": 44,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-tPdF94XjM0.jpg?a=webp",
-        "playCount": 57537,
-        "playCountDisplay": "57.5K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-uS4MKDYjxc.jpg?a=webp",
+        "playCount": 13650,
+        "playCountDisplay": "13.6K"
       },
       {
-        "id": 16038612,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993229,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "046",
-        "playTime": 52,
+        "playTime": 119,
         "price": 70,
-        "prevChapterId": 16038611,
+        "prevChapterId": 13993228,
         "prevChapterName": "045",
-        "nextChapterId": 16038613,
+        "nextChapterId": 13993230,
         "nextChapterName": "047",
         "status": 1,
         "index": 45,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-q0hZNwYjj3.jpg?a=webp",
-        "playCount": 56169,
-        "playCountDisplay": "56.1K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-b1AcVRugLj.jpg?a=webp",
+        "playCount": 12900,
+        "playCountDisplay": "12.9K"
       },
       {
-        "id": 16038613,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993230,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "047",
-        "playTime": 73,
+        "playTime": 115,
         "price": 70,
-        "prevChapterId": 16038612,
+        "prevChapterId": 13993229,
         "prevChapterName": "046",
-        "nextChapterId": 16038614,
+        "nextChapterId": 13993231,
         "nextChapterName": "048",
         "status": 1,
         "index": 46,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-IyT12Z7TVJ.jpg?a=webp",
-        "playCount": 56070,
-        "playCountDisplay": "56.0K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-A5hXOWox4H.jpg?a=webp",
+        "playCount": 14290,
+        "playCountDisplay": "14.2K"
       },
       {
-        "id": 16038614,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993231,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "048",
-        "playTime": 47,
+        "playTime": 133,
         "price": 70,
-        "prevChapterId": 16038613,
+        "prevChapterId": 13993230,
         "prevChapterName": "047",
-        "nextChapterId": 16038615,
+        "nextChapterId": 13993232,
         "nextChapterName": "049",
         "status": 1,
         "index": 47,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-DPAxtiIJvM.jpg?a=webp",
-        "playCount": 55582,
-        "playCountDisplay": "55.5K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-6mVCgXVhxL.jpg?a=webp",
+        "playCount": 13118,
+        "playCountDisplay": "13.1K"
       },
       {
-        "id": 16038615,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993232,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "049",
-        "playTime": 69,
+        "playTime": 98,
         "price": 70,
-        "prevChapterId": 16038614,
+        "prevChapterId": 13993231,
         "prevChapterName": "048",
-        "nextChapterId": 16038616,
+        "nextChapterId": 13993233,
         "nextChapterName": "050",
         "status": 1,
         "index": 48,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-EAoOQXJmb8.jpg?a=webp",
-        "playCount": 54570,
-        "playCountDisplay": "54.5K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-sdcPs8BR6V.jpg?a=webp",
+        "playCount": 14159,
+        "playCountDisplay": "14.1K"
       },
       {
-        "id": 16038616,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993233,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "050",
-        "playTime": 68,
+        "playTime": 136,
         "price": 70,
-        "prevChapterId": 16038615,
+        "prevChapterId": 13993232,
         "prevChapterName": "049",
-        "nextChapterId": 16038617,
+        "nextChapterId": 13993234,
         "nextChapterName": "051",
         "status": 1,
         "index": 49,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-kUOzoIOyvx.jpg?a=webp",
-        "playCount": 53869,
-        "playCountDisplay": "53.8K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-UskEIP22LI.jpg?a=webp",
+        "playCount": 12580,
+        "playCountDisplay": "12.5K"
       },
       {
-        "id": 16038617,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993234,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "051",
-        "playTime": 70,
+        "playTime": 93,
         "price": 70,
-        "prevChapterId": 16038616,
+        "prevChapterId": 13993233,
         "prevChapterName": "050",
-        "nextChapterId": 16038618,
+        "nextChapterId": 13993235,
         "nextChapterName": "052",
         "status": 1,
         "index": 50,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-y8K5WA6sy9.jpg?a=webp",
-        "playCount": 53359,
-        "playCountDisplay": "53.3K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-LdzfbeU1qD.jpg?a=webp",
+        "playCount": 13844,
+        "playCountDisplay": "13.8K"
       },
       {
-        "id": 16038618,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993235,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "052",
-        "playTime": 70,
+        "playTime": 99,
         "price": 70,
-        "prevChapterId": 16038617,
+        "prevChapterId": 13993234,
         "prevChapterName": "051",
-        "nextChapterId": 16038619,
+        "nextChapterId": 13993236,
         "nextChapterName": "053",
         "status": 1,
         "index": 51,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-dmIYQ7YoMG.jpg?a=webp",
-        "playCount": 52329,
-        "playCountDisplay": "52.3K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-g3jU4NcpvJ.jpg?a=webp",
+        "playCount": 13282,
+        "playCountDisplay": "13.2K"
       },
       {
-        "id": 16038619,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993236,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "053",
-        "playTime": 76,
+        "playTime": 107,
         "price": 70,
-        "prevChapterId": 16038618,
+        "prevChapterId": 13993235,
         "prevChapterName": "052",
-        "nextChapterId": 16038620,
+        "nextChapterId": 13993237,
         "nextChapterName": "054",
         "status": 1,
         "index": 52,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-UPlZvER6Wi.jpg?a=webp",
-        "playCount": 52112,
-        "playCountDisplay": "52.1K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-ekxWukCLmJ.jpg?a=webp",
+        "playCount": 13091,
+        "playCountDisplay": "13.0K"
       },
       {
-        "id": 16038620,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993237,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "054",
-        "playTime": 57,
+        "playTime": 99,
         "price": 70,
-        "prevChapterId": 16038619,
+        "prevChapterId": 13993236,
         "prevChapterName": "053",
-        "nextChapterId": 16038621,
+        "nextChapterId": 13993238,
         "nextChapterName": "055",
         "status": 1,
         "index": 53,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-GWZZgflUA0.jpg?a=webp",
-        "playCount": 52655,
-        "playCountDisplay": "52.6K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-GTjGtjHo2I.jpg?a=webp",
+        "playCount": 13381,
+        "playCountDisplay": "13.3K"
       },
       {
-        "id": 16038621,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993238,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "055",
-        "playTime": 71,
+        "playTime": 107,
         "price": 70,
-        "prevChapterId": 16038620,
+        "prevChapterId": 13993237,
         "prevChapterName": "054",
-        "nextChapterId": 16038622,
+        "nextChapterId": 13993239,
         "nextChapterName": "056",
         "status": 1,
         "index": 54,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-bzZCadH4Tt.jpg?a=webp",
-        "playCount": 51641,
-        "playCountDisplay": "51.6K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-kRqX0RZVqw.jpg?a=webp",
+        "playCount": 12321,
+        "playCountDisplay": "12.3K"
       },
       {
-        "id": 16038622,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993239,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "056",
-        "playTime": 102,
+        "playTime": 113,
         "price": 70,
-        "prevChapterId": 16038621,
+        "prevChapterId": 13993238,
         "prevChapterName": "055",
-        "nextChapterId": 16038623,
+        "nextChapterId": 13993240,
         "nextChapterName": "057",
         "status": 1,
         "index": 55,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-WHOzvlhavk.jpg?a=webp",
-        "playCount": 51937,
-        "playCountDisplay": "51.9K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-nDg1YwsfKI.jpg?a=webp",
+        "playCount": 13462,
+        "playCountDisplay": "13.4K"
       },
       {
-        "id": 16038623,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993240,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "057",
-        "playTime": 80,
+        "playTime": 98,
         "price": 70,
-        "prevChapterId": 16038622,
+        "prevChapterId": 13993239,
         "prevChapterName": "056",
-        "nextChapterId": 16038624,
+        "nextChapterId": 13993241,
         "nextChapterName": "058",
         "status": 1,
         "index": 56,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-nuCN4XQFP8.jpg?a=webp",
-        "playCount": 51391,
-        "playCountDisplay": "51.3K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-gQOBbuE8eK.jpg?a=webp",
+        "playCount": 13560,
+        "playCountDisplay": "13.5K"
       },
       {
-        "id": 16038624,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993241,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "058",
-        "playTime": 100,
+        "playTime": 82,
         "price": 70,
-        "prevChapterId": 16038623,
+        "prevChapterId": 13993240,
         "prevChapterName": "057",
-        "nextChapterId": 16038625,
+        "nextChapterId": 13993242,
         "nextChapterName": "059",
         "status": 1,
         "index": 57,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-hOKkPGcWxM.jpg?a=webp",
-        "playCount": 51691,
-        "playCountDisplay": "51.6K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-NawAMgg17X.jpg?a=webp",
+        "playCount": 12728,
+        "playCountDisplay": "12.7K"
       },
       {
-        "id": 16038625,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993242,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "059",
-        "playTime": 63,
+        "playTime": 104,
         "price": 70,
-        "prevChapterId": 16038624,
+        "prevChapterId": 13993241,
         "prevChapterName": "058",
-        "nextChapterId": 16038626,
+        "nextChapterId": 13993243,
         "nextChapterName": "060",
         "status": 1,
         "index": 58,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-Cfj71LWCvH.jpg?a=webp",
-        "playCount": 50992,
-        "playCountDisplay": "50.9K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-ysQwKRFHVC.jpg?a=webp",
+        "playCount": 12931,
+        "playCountDisplay": "12.9K"
       },
       {
-        "id": 16038626,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993243,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "060",
-        "playTime": 74,
+        "playTime": 82,
         "price": 70,
-        "prevChapterId": 16038625,
+        "prevChapterId": 13993242,
         "prevChapterName": "059",
-        "nextChapterId": 16038627,
+        "nextChapterId": 13993244,
         "nextChapterName": "061",
         "status": 1,
         "index": 59,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-vLGSTVR6ha.jpg?a=webp",
-        "playCount": 50747,
-        "playCountDisplay": "50.7K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-duv2GKshUX.jpg?a=webp",
+        "playCount": 12148,
+        "playCountDisplay": "12.1K"
       },
       {
-        "id": 16038627,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993244,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "061",
-        "playTime": 60,
+        "playTime": 115,
         "price": 70,
-        "prevChapterId": 16038626,
+        "prevChapterId": 13993243,
         "prevChapterName": "060",
-        "nextChapterId": 16038628,
+        "nextChapterId": 13993245,
         "nextChapterName": "062",
         "status": 1,
         "index": 60,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-QcqN3u3qeJ.jpg?a=webp",
-        "playCount": 50347,
-        "playCountDisplay": "50.3K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-qBCLNQqQLn.jpg?a=webp",
+        "playCount": 11835,
+        "playCountDisplay": "11.8K"
       },
       {
-        "id": 16038628,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993245,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "062",
-        "playTime": 43,
+        "playTime": 95,
         "price": 70,
-        "prevChapterId": 16038627,
+        "prevChapterId": 13993244,
         "prevChapterName": "061",
-        "nextChapterId": 16038629,
+        "nextChapterId": 13993246,
         "nextChapterName": "063",
         "status": 1,
         "index": 61,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-3KRvKBMXUZ.jpg?a=webp",
-        "playCount": 50703,
-        "playCountDisplay": "50.7K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-pr6rcW12XC.jpg?a=webp",
+        "playCount": 12365,
+        "playCountDisplay": "12.3K"
       },
       {
-        "id": 16038629,
-        "bookId": "31001219861",
-        "volumeId": 624350,
+        "id": 13993246,
+        "bookId": "31001112077",
+        "volumeId": 540131,
         "chapterName": "063",
-        "playTime": 116,
+        "playTime": 107,
         "price": 70,
-        "prevChapterId": 16038628,
+        "prevChapterId": 13993245,
         "prevChapterName": "062",
-        "nextChapterId": 0,
+        "nextChapterId": 13993247,
+        "nextChapterName": "064",
         "status": 1,
         "index": 62,
         "type": 0,
         "charged": false,
         "consumeType": 0,
-        "image": "https://acf.goodreels.com/videobook/31001219861/202512/cover-rzK6pAyMSz.jpg?a=webp",
-        "playCount": 54559,
-        "playCountDisplay": "54.5K"
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-zKrdLBNfIc.jpg?a=webp",
+        "playCount": 12900,
+        "playCountDisplay": "12.9K"
+      },
+      {
+        "id": 13993247,
+        "bookId": "31001112077",
+        "volumeId": 540131,
+        "chapterName": "064",
+        "playTime": 158,
+        "price": 70,
+        "prevChapterId": 13993246,
+        "prevChapterName": "063",
+        "nextChapterId": 0,
+        "status": 1,
+        "index": 63,
+        "type": 0,
+        "charged": false,
+        "consumeType": 0,
+        "image": "https://acf.goodreels.com/videobook/31001112077/202508/cover-PEMDo8Gyh2.jpg?a=webp",
+        "playCount": 13725,
+        "playCountDisplay": "13.7K"
       }
     ],
-    "cdnExpireTime": 1767679554000
+    "cdnExpireTime": 1767803010000
   },
   "status": 0,
   "message": "success",
-  "timestamp": 1767074754814,
-  "ip": "49.195.113.191",
+  "timestamp": 1767198210974,
+  "ip": "49.186.30.195",
   "region": "AU",
   "path": "/chapter/list",
   "success": true
