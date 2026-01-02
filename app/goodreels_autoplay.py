@@ -17,6 +17,7 @@ import math
 import re
 import subprocess
 import time
+from pathlib import Path
 
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
@@ -291,26 +292,6 @@ def check_if_locked(driver) -> bool:
         return False
 
 
-def check_if_locked(driver) -> bool:
-    """
-    检查是否需要解锁
-    判断是否存在 unlockRecharge 元素
-    返回: True 如果需要解锁（未解锁），False 如果正常播放态
-    """
-    try:
-        unlock_elems = driver.find_elements(AppiumBy.ID, UNLOCK_RECHARGE_ID)
-        if len(unlock_elems) > 0:
-            # 检查是否有可见的解锁元素
-            for unlock_elem in unlock_elems:
-                if unlock_elem.is_displayed():
-                    print("[!] 检测到需要解锁，未解锁状态")
-                    return True
-        return False
-    except Exception as e:
-        print(f"[!] 检查解锁状态失败: {e}")
-        return False
-
-
 def swipe_to_next_episode(driver, episode_num: int) -> bool:
     """
     使用上滑手势切换到下一集（最符合实际使用场景）
@@ -340,17 +321,88 @@ def swipe_to_next_episode(driver, episode_num: int) -> bool:
             "percent": 0.85
         })
         time.sleep(1)  # 等待切换完成
-        
+
         # 检查是否需要解锁
         if check_if_locked(driver):
             print(f"[!] 第 {episode_num} 集需要解锁，退出自动播放")
             return False
-        
+
         print(f"[+] 已切换到第 {episode_num} 集")
         return True
     except Exception as e:
         print(f"[!] 上滑手势失败: {e}")
         return False
+
+
+def wait_for_episode_download(episode_index: int, book_id: str, downloads_dir: Path = None, max_wait_time: int = 300) -> bool:
+    """
+    等待指定集数下载完成
+    
+    参数:
+        episode_index: 集数（从1开始）
+        book_id: 书籍ID，用于确定检查的目录
+        downloads_dir: 下载根目录路径，默认为项目根目录下的 downloads
+        max_wait_time: 最大等待时间（秒），默认5分钟
+    
+    返回:
+        bool: 如果下载完成返回 True，超时返回 False
+    """
+    if is_episode_downloaded(episode_index, book_id, downloads_dir):
+        return True
+
+    print(f"[!] 第 {episode_index} 集未下载，等待下载完成...")
+    wait_interval = 5  # 每5秒检查一次
+    waited_time = 0
+
+    while not is_episode_downloaded(episode_index, book_id, downloads_dir):
+        if waited_time >= max_wait_time:
+            print(f"[!] 等待第 {episode_index} 集下载超时")
+            return False
+        time.sleep(wait_interval)
+        waited_time += wait_interval
+        print(f"[.] 等待中... ({waited_time}/{max_wait_time}秒)")
+
+    return True
+
+
+def is_episode_downloaded(episode_index: int, book_id: str, downloads_dir: Path = None) -> bool:
+    """
+    检查指定集数是否已下载
+    
+    参数:
+        episode_index: 集数（从1开始）
+        book_id: 书籍ID，用于确定检查的目录
+        downloads_dir: 下载根目录路径，默认为项目根目录下的 downloads
+    
+    返回:
+        bool: 如果已下载返回 True，否则返回 False
+    """
+    if downloads_dir is None:
+        downloads_dir = Path(__file__).parent.parent / "downloads"
+
+    # 视频文件在 downloads/{book_id}/ 目录下
+    book_dir = downloads_dir / book_id
+    if not book_dir.exists():
+        return False
+
+    # 章节名格式：001, 002, 003...
+    chapter_name = f"{episode_index:03d}"
+
+    # 检查多种可能的文件名格式
+    possible_names = [
+        f"{chapter_name}.mp4",  # 001.mp4
+        f"{chapter_name}_720p.mp4",  # 001_720p.mp4
+        f"{chapter_name}_540p.mp4",  # 001_540p.mp4
+        f"{chapter_name}_1080p.mp4",  # 001_1080p.mp4
+    ]
+
+    for video_file in possible_names:
+        video_path = book_dir / video_file
+        if video_path.exists():
+            print(f"[+] 第 {episode_index} 集已下载: {video_path}")
+            return True
+
+    return False
 
 
 def click_first_episode(driver) -> bool:
@@ -558,13 +610,21 @@ def main() -> None:
         click_first_episode(driver)
         time.sleep(5)  # 等待第一集开始播放
 
-        # 5) 循环：每隔一段时间使用滑屏手势切换到下一集
+        # 5) 循环：检查当前集是否已下载，然后切换到下一集
         print("[+] 进入自动播放循环...")
         episode_index = 1  # 从第一集开始（第一集已经播放）
+        downloads_dir = Path(__file__).parent.parent / "downloads"
+        book_id = "31001206527"  # TODO: 从UI或配置中获取book_id
 
         while True:
-            time.sleep(5)  # 等待当前集播放15秒后自动跳转下一集
-            episode_index += 1  # 切换到下一集
+            # 检查当前集是否已下载，如果未下载则等待
+            current_episode = episode_index
+            if not wait_for_episode_download(current_episode, book_id, downloads_dir):
+                break  # 等待超时，退出循环
+
+            # 当前集已下载，切换到下一集
+            episode_index += 1
+            print(f"[+] 第 {current_episode} 集已下载，切换到第 {episode_index} 集...")
 
             # 使用上滑手势切换到下一集
             success = swipe_to_next_episode(driver, episode_index)
