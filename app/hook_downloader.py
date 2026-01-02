@@ -53,9 +53,9 @@ def run_ffmpeg(
     return output_file
 
 
-def parse_episode(obj: dict, msg_type: str | None = None) -> dict[str, str]:
+def parse_episode(obj: dict, msg_type: str | None = None) -> dict:
     """
-    解析请求响应，生成 chapter_name 与 m3u8 url 的映射
+    解析请求响应，提取 bookId 和章节 URL 映射
     根据不同的 msg_type 处理不同的 JSON 格式
 
     参数:
@@ -63,17 +63,31 @@ def parse_episode(obj: dict, msg_type: str | None = None) -> dict[str, str]:
         msg_type: 消息类型，不同的类型对应不同的 JSON 格式
     
     返回:
-        dict[str, str]: {chapter_name: video_path} 的映射字典
+        dict: {
+            "bookId": str,  # 从 list 首个元素获取
+            "chapters": {chapter_name: video_path}  # 章节名与视频URL的映射
+        }
     """
-    url_map = {}
+    result = {
+        "bookId": "",
+        "chapters": {}
+    }
 
     if msg_type == "goodshort":
         # goodshort 格式: data.list[].chapterName 和 data.list[].cdnList[].videoPath
         # 取第一个存在 videoPath 的内容
         if "data" not in obj or "list" not in obj["data"]:
-            return url_map
+            return result
 
-        for item in obj["data"]["list"]:
+        list_data = obj["data"]["list"]
+        if not list_data:
+            return result
+
+        # 取 list 首个元素的 bookId
+        first_item = list_data[0]
+        result["bookId"] = first_item.get("bookId", "")
+
+        for item in list_data:
             chapter_name = item.get("chapterName")
             if not chapter_name:
                 continue
@@ -83,14 +97,14 @@ def parse_episode(obj: dict, msg_type: str | None = None) -> dict[str, str]:
             video_path = next((cdn.get("videoPath") for cdn in cdn_list if cdn.get("videoPath")), None)
 
             if video_path:
-                url_map[chapter_name] = video_path
+                result["chapters"][chapter_name] = video_path
                 print(f"[M3U8] {chapter_name}: {video_path}")
     # 可以在这里添加其他类型的处理逻辑
     # elif msg_type == "other_type":
     #     # 处理其他格式的 JSON
     #     pass
 
-    return url_map
+    return result
 
 
 def download_m3u8(
@@ -155,11 +169,14 @@ def on_message(message, data):
         print("[!] json parse failed:", e)
         return
 
-    url_map = parse_episode(obj, msg_type)
-    if not url_map:
+    episode_data = parse_episode(obj, msg_type)
+    if not episode_data or not episode_data.get("chapters"):
         return
 
-    output_dir = Path(__file__).parent.parent / "downloads"
+    book_id = episode_data.get("bookId", "")
+    url_map = episode_data.get("chapters", {})
+
+    output_dir = Path(__file__).parent.parent / "downloads" / book_id
     print(f"\n[+] 开始批量下载 {len(url_map)} 个视频...")
     download_m3u8(url_map, output_dir)
     print("[+] 批量下载完成")
