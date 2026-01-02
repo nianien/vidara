@@ -27,8 +27,9 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # ====== Resource ID 配置 ======
 # 主界面搜索入口
-SEARCH_ENTRANCE_ID = "com.newreading.goodreels:id/viewClick"
-SEARCH_LAYOUT_ID = "com.newreading.goodreels:id/searchLayout"
+SEARCH_ENTRANCE_ID = "com.newreading.goodreels:id/viewClick"  # 搜索入口点击区域
+SEARCH_LAYOUT_ID = "com.newreading.goodreels:id/searchLayout"  # 搜索布局容器
+SEARCH_ICON_ID = "com.newreading.goodreels:id/ivSearch"  # 搜索图标
 
 # 搜索页元素
 SEARCH_EDIT_ID = "com.newreading.goodreels:id/search_edit"
@@ -213,6 +214,77 @@ def scroll_to_first_episode(driver) -> bool:
 def adb_input_text(text: str) -> None:
     """使用 adb 输入文本"""
     subprocess.run(["adb", "shell", "input", "text", text], check=False)
+
+
+def click_search_entrance(driver) -> bool:
+    """
+    点击主界面的搜索入口
+    
+    参数:
+        driver: Appium WebDriver 实例
+    
+    返回:
+        bool: 如果成功点击返回 True，否则返回 False
+    """
+    print("[+] 查找主界面搜索入口...")
+    search_clicked = False
+    
+    # 方法1: 优先查找 viewClick（最直接的点击入口）
+    search_entrance = find_element_safe(driver, AppiumBy.ID, SEARCH_ENTRANCE_ID, timeout=5)
+    if search_entrance and search_entrance.is_displayed():
+        print("[+] 找到搜索入口 viewClick，点击...")
+        search_entrance.click()
+        search_clicked = True
+        time.sleep(1)
+    
+    # 方法2: 如果 viewClick 不可用，尝试点击 searchLayout 容器
+    if not search_clicked:
+        search_layout = find_element_safe(driver, AppiumBy.ID, SEARCH_LAYOUT_ID, timeout=3)
+        if search_layout and search_layout.is_displayed():
+            print("[+] 找到搜索布局 searchLayout，点击...")
+            search_layout.click()
+            search_clicked = True
+            time.sleep(1)
+    
+    # 方法3: 如果都找不到，尝试点击搜索图标
+    if not search_clicked:
+        search_icon = find_element_safe(driver, AppiumBy.ID, SEARCH_ICON_ID, timeout=2)
+        if search_icon and search_icon.is_displayed():
+            print("[+] 找到搜索图标 ivSearch，点击...")
+            search_icon.click()
+            search_clicked = True
+            time.sleep(1)
+    
+    # 方法4: 最后回退：使用坐标点击（viewClick 的 bounds 约为 [36,120][901,224]，中心点约在 50%, 8%）
+    if not search_clicked:
+        print("[!] 未找到搜索入口元素，使用坐标点击...")
+        tap_pct(driver, 50, 8)
+        time.sleep(1)
+    
+    return search_clicked
+
+
+def find_and_click_search_edit(driver):
+    """
+    查找并点击搜索输入框
+    
+    参数:
+        driver: Appium WebDriver 实例
+    
+    返回:
+        WebElement 或 None: 如果找到搜索输入框返回元素，否则返回 None
+    """
+    print("[+] 查找搜索输入框...")
+    search_edit = find_element_safe(driver, AppiumBy.ID, SEARCH_EDIT_ID, timeout=5)
+    if search_edit:
+        print("[+] 找到搜索输入框，点击...")
+        search_edit.click()
+        time.sleep(0.5)
+    else:
+        print("[!] 未找到搜索输入框，可能已在搜索页或需要等待...")
+        time.sleep(1)  # 等待页面加载
+    
+    return search_edit
 
 
 def is_bottom_sheet_open(driver) -> bool:
@@ -498,33 +570,10 @@ def main() -> None:
         time.sleep(2)  # 等待应用完全加载
 
         # 1) 点击主界面的搜索入口
-        print("[+] 查找主界面搜索入口...")
-        search_entrance = find_element_safe(driver, AppiumBy.ID, SEARCH_ENTRANCE_ID, timeout=10)
-        if search_entrance:
-            print("[+] 点击搜索入口...")
-            search_entrance.click()
-            time.sleep(1)
-        else:
-            # 回退：尝试点击搜索布局
-            search_layout = find_element_safe(driver, AppiumBy.ID, SEARCH_LAYOUT_ID, timeout=3)
-            if search_layout:
-                print("[+] 点击搜索布局...")
-                search_layout.click()
-                time.sleep(1)
-            else:
-                print("[!] 未找到搜索入口，尝试使用坐标...")
-                tap_pct(driver, 50, 10)
-                time.sleep(1)
+        click_search_entrance(driver)
 
         # 2) 查找并点击搜索输入框（如果已经在搜索页）
-        print("[+] 查找搜索输入框...")
-        search_edit = find_element_safe(driver, AppiumBy.ID, SEARCH_EDIT_ID, timeout=5)
-        if search_edit:
-            print("[+] 点击搜索输入框...")
-            search_edit.click()
-            time.sleep(0.5)
-        else:
-            print("[!] 未找到搜索输入框，可能已在搜索页")
+        search_edit = find_and_click_search_edit(driver)
 
         # 2) 清空输入框并输入关键词
         # 先清空（如果有清除按钮）
