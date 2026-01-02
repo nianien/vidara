@@ -1,5 +1,5 @@
 📦
-439785 /src/hook_chapter.js
+439306 /src/hook_chapter.js
 ✄
 var __defProp = Object.defineProperty;
 var __export = (target, all) => {
@@ -13428,47 +13428,38 @@ var frida_java_bridge_default = runtime;
 // src/hook_chapter.js
 frida_java_bridge_default.perform(function() {
   console.log("[*] Hook Body.apply + RealCall (REQUEST DEDUP)");
-  var BodyHandler = frida_java_bridge_default.use("retrofit2.ParameterHandler$Body");
-  var MapCls = frida_java_bridge_default.use("java.util.Map");
-  var origApply = BodyHandler.apply.overload(
-    "retrofit2.RequestBuilder",
-    "java.lang.Object"
-  );
-  origApply.implementation = function(rb, value) {
-    if (value && MapCls.class.isInstance(value)) {
-      var map = frida_java_bridge_default.cast(value, MapCls);
-      if (map.containsKey("latestChapterId")) {
-        var oldVal = map.get("latestChapterId");
-        if (oldVal !== null && "" + oldVal !== "0") {
-          map.put("latestChapterId", frida_java_bridge_default.use("java.lang.Integer").valueOf(0));
-          console.log("[PATCH] latestChapterId " + oldVal + " -> 0");
-        }
-      }
-    }
-    return origApply.call(this, rb, value);
-  };
-  var TARGET = "/hwycclientreels/chapter/list";
+  var TARGETS = [
+    "/hwycclientreels/chapter/list",
+    "/hwycclientreels/chapter/load"
+  ];
   var RealCall = frida_java_bridge_default.use("okhttp3.internal.connection.RealCall");
   var getResp = RealCall.getResponseWithInterceptorChain$okhttp.overload();
   var seenReq = {};
   getResp.implementation = function() {
     var req = this.request();
     var reqStr = req ? req.toString() : "";
-    if (reqStr.indexOf(TARGET) === -1) {
+    if (!TARGETS.some(function(t) {
+      return reqStr.indexOf(t) !== -1;
+    })) {
       return getResp.call(this);
     }
     if (seenReq[reqStr]) {
       return getResp.call(this);
     }
     seenReq[reqStr] = true;
-    console.log("\n[HIT REQUEST]");
-    console.log(reqStr);
     var resp = getResp.call(this);
     console.log("[HIT RESPONSE]");
     try {
       var body = resp.d();
       if (body) {
+        var mt = body.contentType();
+        var ct = mt ? mt.toString() : "";
+        if (ct.indexOf("application/json") === -1) return resp;
         var text = body.string();
+        if (text.indexOf("m3u8") === -1) return resp;
+        console.log("\n[HIT REQUEST]");
+        console.log(reqStr);
+        console.log("[HIT RESPONSE]");
         console.log("[BODY]\n" + text);
         send({
           type: "goodshort",

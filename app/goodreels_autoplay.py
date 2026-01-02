@@ -556,7 +556,7 @@ def main() -> None:
         # 4) 打开剧集列表，定位到第一集
         print("[+] 打开剧集列表，定位到第一集...")
         click_first_episode(driver)
-        time.sleep(3)  # 等待第一集开始播放
+        time.sleep(5)  # 等待第一集开始播放
 
         # 5) 循环：每隔一段时间使用滑屏手势切换到下一集
         print("[+] 进入自动播放循环...")
