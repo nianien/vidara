@@ -1,6 +1,5 @@
+import Java from "frida-java-bridge";
 
-console.log("probe: typeof Java =", typeof Java);
-console.log("probe: Process.id =", Process.id);
 Java.perform(function () {
     console.log("[*] Hook Body.apply + RealCall (REQUEST DEDUP)");
 
@@ -69,10 +68,10 @@ Java.perform(function () {
                 console.log("[BODY]\n" + text);
 
                 // 发送消息到 Python 端
-                // send({
-                //     type: "goodshort",
-                //     data: text
-                // });
+                send({
+                    type: "goodshort",
+                    data: text
+                });
             }
         } catch (e) {
             console.log("[BODY ERROR] " + e);

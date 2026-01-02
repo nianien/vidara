@@ -173,7 +173,7 @@ def main():
     session = device.attach(pid)
 
     # 2. 加载脚本 (强制指定 V8 运行时)
-    hook_script_path = Path(__file__).parent.parent / "hook" / "hook_chapter.js"
+    hook_script_path = Path(__file__).parent.parent / "frida-compile" / "output" / "hook_chapter.js"
     source = hook_script_path.read_text(encoding="utf-8")
     script = session.create_script(source, runtime="v8")
 
