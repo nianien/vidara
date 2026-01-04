@@ -228,7 +228,7 @@ def click_search_entrance(driver) -> bool:
     """
     print("[+] 查找主界面搜索入口...")
     search_clicked = False
-    
+
     # 方法1: 优先查找 viewClick（最直接的点击入口）
     search_entrance = find_element_safe(driver, AppiumBy.ID, SEARCH_ENTRANCE_ID, timeout=5)
     if search_entrance and search_entrance.is_displayed():
@@ -236,7 +236,7 @@ def click_search_entrance(driver) -> bool:
         search_entrance.click()
         search_clicked = True
         time.sleep(1)
-    
+
     # 方法2: 如果 viewClick 不可用，尝试点击 searchLayout 容器
     if not search_clicked:
         search_layout = find_element_safe(driver, AppiumBy.ID, SEARCH_LAYOUT_ID, timeout=3)
@@ -245,7 +245,7 @@ def click_search_entrance(driver) -> bool:
             search_layout.click()
             search_clicked = True
             time.sleep(1)
-    
+
     # 方法3: 如果都找不到，尝试点击搜索图标
     if not search_clicked:
         search_icon = find_element_safe(driver, AppiumBy.ID, SEARCH_ICON_ID, timeout=2)
@@ -254,13 +254,13 @@ def click_search_entrance(driver) -> bool:
             search_icon.click()
             search_clicked = True
             time.sleep(1)
-    
+
     # 方法4: 最后回退：使用坐标点击（viewClick 的 bounds 约为 [36,120][901,224]，中心点约在 50%, 8%）
     if not search_clicked:
         print("[!] 未找到搜索入口元素，使用坐标点击...")
         tap_pct(driver, 50, 8)
         time.sleep(1)
-    
+
     return search_clicked
 
 
@@ -283,7 +283,7 @@ def find_and_click_search_edit(driver):
     else:
         print("[!] 未找到搜索输入框，可能已在搜索页或需要等待...")
         time.sleep(1)  # 等待页面加载
-    
+
     return search_edit
 
 
@@ -406,24 +406,53 @@ def swipe_to_next_episode(driver, episode_num: int) -> bool:
         return False
 
 
-def wait_for_episode_download(episode_index: int, book_id: str, downloads_dir: Path = None, max_wait_time: int = 300) -> bool:
+def get_book_id_from_file(downloads_dir: Path = None) -> str:
+    """
+    从 downloads/book_id.txt 文件中读取 book_id
+    
+    参数:
+        downloads_dir: 下载根目录路径，默认为项目根目录下的 downloads
+    
+    返回:
+        str: book_id，如果文件不存在或读取失败返回空字符串
+    """
+    if downloads_dir is None:
+        downloads_dir = Path(__file__).parent.parent / "downloads"
+
+    book_id_file = downloads_dir / "book_id.txt"
+    if not book_id_file.exists():
+        return ""
+
+    try:
+        book_id = book_id_file.read_text(encoding="utf-8").strip()
+        return book_id
+    except Exception as e:
+        print(f"[!] 读取 BookId 失败: {e}")
+        return ""
+
+
+def wait_for_episode_download(episode_index: int, downloads_dir: Path = None, max_wait_time: int = 60) -> bool:
     """
     等待指定集数下载完成
     
     参数:
         episode_index: 集数（从1开始）
-        book_id: 书籍ID，用于确定检查的目录
         downloads_dir: 下载根目录路径，默认为项目根目录下的 downloads
-        max_wait_time: 最大等待时间（秒），默认5分钟
+        max_wait_time: 最大等待时间（秒）
     
     返回:
         bool: 如果下载完成返回 True，超时返回 False
     """
+    book_id = get_book_id_from_file(downloads_dir)
+    if not book_id:
+        print(f"[!] 无法获取 BookId，跳过检查第 {episode_index} 集下载状态")
+        return False
+
     if is_episode_downloaded(episode_index, book_id, downloads_dir):
         return True
 
     print(f"[!] 第 {episode_index} 集未下载，等待下载完成...")
-    wait_interval = 5  # 每5秒检查一次
+    wait_interval = 1  # 每5秒检查一次
     waited_time = 0
 
     while not is_episode_downloaded(episode_index, book_id, downloads_dir):
@@ -432,8 +461,6 @@ def wait_for_episode_download(episode_index: int, book_id: str, downloads_dir: P
             return False
         time.sleep(wait_interval)
         waited_time += wait_interval
-        print(f"[.] 等待中... ({waited_time}/{max_wait_time}秒)")
-
     return True
 
 
@@ -531,7 +558,7 @@ def click_first_episode(driver) -> bool:
     try:
         print("[+] 找到第一集，点击...")
         first_container.click()
-        time.sleep(3)  # 等待视频切换完成
+        time.sleep(5)  # 等待视频切换完成
 
         # 关闭弹窗
         close_btn = find_element_safe(driver, AppiumBy.ID, CLOSE_BTN_ID, timeout=2)
@@ -655,21 +682,18 @@ def main() -> None:
         time.sleep(2)  # 等待页面加载
 
         # 4) 打开剧集列表，定位到第一集
-        print("[+] 打开剧集列表，定位到第一集...")
         click_first_episode(driver)
         time.sleep(5)  # 等待第一集开始播放
 
         # 5) 循环：检查当前集是否已下载，然后切换到下一集
         print("[+] 进入自动播放循环...")
-        episode_index = 1  # 从第一集开始（第一集已经播放）
+        episode_index = 1  # 从第一集开始
         downloads_dir = Path(__file__).parent.parent / "downloads"
-        book_id = "31001206527"  # TODO: 从UI或配置中获取book_id
 
         while True:
             # 检查当前集是否已下载，如果未下载则等待
             current_episode = episode_index
-            if not wait_for_episode_download(current_episode, book_id, downloads_dir):
-                break  # 等待超时，退出循环
+            wait_for_episode_download(current_episode, downloads_dir)
 
             # 当前集已下载，切换到下一集
             episode_index += 1
