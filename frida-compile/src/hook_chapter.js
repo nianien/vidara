@@ -11,6 +11,30 @@ Java.perform(function () {
     const OkHttpCall = Java.use('retrofit2.OkHttpCall');
     const Gson = Java.use('com.google.gson.Gson').$new();
 
+    // post /book/quick/open
+    const o0 = RequestApiLib.o0.overload(
+        'java.lang.String',  // bookId
+        'long',              // chapterId
+        'java.lang.String',  // source
+        'com.newreading.goodreels.net.BaseObserver' // BaseObserver<QuickBookModel>
+    )
+
+    // post /chapter/load
+    const k0 = RequestApiLib.k0.overload(
+        "java.util.List",//chapterIds
+        "java.lang.String",//bookId
+        "com.newreading.goodreels.net.BaseObserver"
+    );
+
+    // post /chapter/list
+    const D = RequestApiLib.D.overload(
+        'java.lang.String', //bookId
+        'int',//chapterCount
+        'long',//latestChapterId
+        'boolean',//needBookInfo
+        'com.newreading.goodreels.net.BaseObserver'
+    );
+
     /* ===================== 工具函数 ===================== */
     /**
      * 安全地将值转换为字符串
@@ -24,16 +48,18 @@ Java.perform(function () {
     }
 
     /**
-     * 从响应体中提取Book 信息
+     * 从响应体中提取 book 信息
      */
     function toBook(body) {
         if (!body) return {};
-
-        const root = JSON.parse(Gson.toJson(body));
-
-        const book = root && root.data && root.data.book ? root.data.book : {};
-        if (!book) return {};
-        return book;
+        try {
+            const root = JSON.parse(Gson.toJson(body));
+            const book = root?.data?.book;
+            return book && typeof book === 'object' ? book : {};
+        } catch (e) {
+            console.log('[toBook err]', e);
+            return {};
+        }
     }
 
     /**
@@ -154,7 +180,7 @@ Java.perform(function () {
                 try {
                     const chapterIds = ArrayList.$new();
                     chapterIds.add(task.chapterId);
-                    api.k0(chapterIds, task.bookId, noop);
+                    k0.call(api, chapterIds, task.bookId, noop);
                 } catch (e) {
                     console.log(`[call k0 err] ${k}`, e);
                 }
@@ -173,10 +199,12 @@ Java.perform(function () {
      */
     function loadBatchFromListResponse(chapters) {
         if (!chapters || chapters.length === 0) return;
-
+        const bookId = chapters?.[0]?.bookId ?? null;
+        if (bookId) {
+            o0.call(api, bookId, -1, '', noop);
+        }
         const interval = 120;
         let delay = 0;
-
         for (const c of chapters) {
             if (!c || !c.id || !c.bookId) continue;
 
@@ -219,10 +247,8 @@ Java.perform(function () {
 
         for (const c of chapters) {
             if (!c || !c.id || !c.bookId) continue;
-
             const chapterIdLong = parseChapterId(c.id);
             if (!chapterIdLong) continue;
-
             const k = keyOf(c.bookId, chapterIdLong);
             if (inQueue.delete(k)) {
                 console.log(`[release] ${k}`);
@@ -237,30 +263,45 @@ Java.perform(function () {
     /**
      * Hook RequestApiLib.D方法，将latestChapterId参数修改为0
      */
-    const D = api.D.overload('java.lang.String', 'int', 'long', 'boolean', 'com.newreading.goodreels.net.BaseObserver');
+
 
     D.implementation = function (bookId, chapterCount, latestChapterId, needBookInfo, observer) {
         return D.call(this, bookId, chapterCount, 0, needBookInfo, observer);
     }
 
+
     /* ===================== HTTP Hook ===================== */
     /**
      * 需要拦截的目标URL列表
      */
-    const APIS = {
-        CHAPTER: ['/chapter/load', '/chapter/list'],
-        BOOK: ['/book/quick/open']
-    };
-    const TARGETS = Object.values(APIS).flat();
 
-    /**
-     * 检查URL是否匹配目标列表
-     */
-    function hit(url, targets) {
-        if (!url) return false;
-        if (!targets || targets.length === 0) return false;
+    const APIS = Object.freeze({
+        CHAPTER_LOAD: '/chapter/load',
+        CHAPTER_LIST: '/chapter/list',
+        BOOK_OPEN: '/book/quick/open',
+    });
 
-        return targets.some(target => url.indexOf(target) !== -1);
+// 只做一次匹配：返回 key 或 null
+    function matchApi(url) {
+        if (!url) return null;
+
+        // 如果有“包含关系”，把更具体的放前面（这里暂时都不冲突）
+        if (url.indexOf(APIS.BOOK_OPEN) !== -1) return 'BOOK_OPEN';
+        if (url.indexOf(APIS.CHAPTER_LIST) !== -1) return 'CHAPTER_LIST';
+        if (url.indexOf(APIS.CHAPTER_LOAD) !== -1) return 'CHAPTER_LOAD';
+
+        return null;
+    }
+
+
+    function sendMsg(type, data) {
+        try {
+            send({
+                source: 'goodshort', type: type, data: data
+            });
+        } catch (e) {
+            console.log('[send ' + type + 'err]', e);
+        }
     }
 
     const exec0 = OkHttpCall.execute.overload();
@@ -271,42 +312,35 @@ Java.perform(function () {
     exec0.implementation = function () {
         const reqStr = safeStr(this.request());
         const resp = exec0.call(this);
-
-        if (!hit(reqStr, TARGETS)) {
-            return resp;
-        }
-
+        const apiKey = matchApi(reqStr);
+        // 统一过滤：非目标 API 直接返回
+        if (!apiKey) return resp;
         try {
             const body = resp.body();
             if (!body) {
                 return resp;
             }
-            if (hit(reqStr, APIS.BOOK)) {
-                const book = toBook(body);
-                try {
-                    send({
-                        source: 'goodshort', type: 'book', data: book
-                    });
-                } catch (e) {
-                    console.log('[send chapter err]', e);
+            switch (apiKey) {
+                case 'BOOK_OPEN': {
+                    //发送 book 信息
+                    sendMsg('book', toBook(body))
+                    break;
                 }
-            } else if (hit(reqStr, APIS.CHAPTER)) {
-                // 处理章节列表响应
-                const chapters = toChapters(body);
-                try {
-                    send({
-                        source: 'goodshort', type: 'chapter', data: chapters
-                    });
-                } catch (e) {
-                    console.log('[send chapter err]', e);
-                }
-                if (reqStr.indexOf('/chapter/list') !== -1) {
+                case 'CHAPTER_LIST': {
+                    // 发送chapter信息
+                    const chapters = toChapters(body);
+                    sendMsg('chapter', chapters)
                     loadBatchFromListResponse(chapters);
-                } else if (reqStr.indexOf('/chapter/load') !== -1) {
+                    break;
+                }
+                case 'CHAPTER_LOAD': {
+                    // 发送chapter信息
+                    const chapters = toChapters(body);
+                    sendMsg('chapter', chapters)
                     releaseFromLoadResponse(chapters);
+                    break;
                 }
             }
-
         } catch (e) {
             console.log('[hook err]', e);
         }

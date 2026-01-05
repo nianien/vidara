@@ -28,7 +28,7 @@ def handle_book(data: Any) -> bool:
 
     book_dir = Path(__file__).parent.parent / "downloads" / str(book_id)
     book_dir.mkdir(parents=True, exist_ok=True)
-    book_info_file = book_dir / "book.info"
+    book_info_file = book_dir / "book.json"
     try:
         book_info_file.write_text(
             json.dumps(data, ensure_ascii=False, indent=2),
@@ -50,7 +50,7 @@ def handle_chapter(data: Any) -> bool:
 
     first_item = data[0] if isinstance(data[0], dict) else {}
     book_id = first_item.get("bookId", "") if isinstance(first_item, dict) else ""
-    
+
     chapters: Dict[str, str] = {}
     for item in data:
         if not isinstance(item, dict):
@@ -60,10 +60,10 @@ def handle_chapter(data: Any) -> bool:
         if not chapter_name or not cdn:
             continue
         chapters[str(chapter_name)] = str(cdn)
-    
+
     if not book_id or not chapters:
         return False
-    
+
     book_dir = Path(__file__).parent.parent / "downloads" / str(book_id)
     print(f"\n[+] 开始下载 {len(chapters)} 个视频... bookId={book_id}")
     download_m3u8(chapters, book_dir)
@@ -88,7 +88,7 @@ def on_message(message: Dict[str, Any], data: bytes | None) -> None:
 
         msg_type = payload.get("type") or ""
         msg_data = payload.get("data")
-        
+
         if not msg_type or msg_data is None:
             return
 
@@ -110,7 +110,7 @@ def main() -> None:
         pid = device.spawn(["com.newreading.goodreels"])
         session = device.attach(pid)
 
-        hook_script_path = Path(__file__).parent.parent / "frida-compile" / "src" / "hook_chapter.js"
+        hook_script_path = Path(__file__).parent.parent / "hook" / "hook_chapter.js"
         if not hook_script_path.exists():
             print(f"[!] 错误: 找不到脚本文件 {hook_script_path}")
             return
