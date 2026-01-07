@@ -1,5 +1,5 @@
 📦
-444852 /src/hook_chapter.js
+444858 /goodshort/hook_chapter.js
 ✄
 var __defProp = Object.defineProperty;
 var __export = (target, all) => {
@@ -13425,7 +13425,7 @@ Script.bindWeak(runtime, () => {
 });
 var frida_java_bridge_default = runtime;
 
-// src/hook_chapter.js
+// goodshort/hook_chapter.js
 frida_java_bridge_default.perform(function() {
   const RequestApiLib = frida_java_bridge_default.use("com.newreading.goodreels.net.RequestApiLib");
   const api2 = RequestApiLib.getInstance();
