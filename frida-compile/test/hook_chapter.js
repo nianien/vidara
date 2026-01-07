@@ -297,6 +297,7 @@ Java.perform(function () {
             // send({
             //     source: 'goodshort', type: type, data: data
             // });
+            console.log('[send ' + type + 'succeed]');
         } catch (e) {
             console.log('[send ' + type + 'err]', e);
         }
